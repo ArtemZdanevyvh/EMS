@@ -1,0 +1,270 @@
+/*
+Theme Name: Happycar
+Author: Andrii Gorkovenko
+Author URI: http://gorkovenko.net
+Version: 1.0
+*/
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+  add fonts: 
+++++++++++++++++++++++++++++++++++++++++++++*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&subset=latin,latin-ext);
+
+/* HELPER FOR ME AND OTHER HTML-coder
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+    
+    -webkit-box-shadow: rgba(0,0,0,0.5) 0px 1px 1px;
+       -moz-box-shadow: rgba(0,0,0,0.5) 0px 1px 1px;
+	   		box-shadow: rgba(0,0,0,0.5) 0px 1px 1px;
+    
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+	   		border-radius: 50%;
+    
+	-webkit-transform: rotate(10deg);    
+       -moz-transform: rotate(10deg);		
+	   	-ms-transform: rotate(10deg);
+	   	 -o-transform: rotate(10deg);		
+	   	 	transform: rotate(10deg);   
+	 
+	-webkit-transform-origin: 50% 50%;	 
+	   -moz-transform-origin: 50% 50%;	
+	    -ms-transform-origin: 50% 50%;
+		 -o-transform-origin: 50% 50%;
+		 	transform-origin: 50% 50%;	
+	
+    behavior: url("PIE.htc");
+    
+    -webkit-transition: 0.2s;
+       -moz-transition: 0.2s;
+	    -ms-transition: 0.2s;
+		 -o-transition: 0.2s;      
+		 	transition: 0.2s;
+    
+    opacity: 0.5;
+    filter: alpha(opacity=50);    
+*/
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+  default style
+++++++++++++++++++++++++++++++++++++++++++++*/
+* {
+	outline: none !important;
+}
+
+html {
+    height: 100%;
+    font-size: 16px;
+}
+body, ul {
+	padding: 0;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++
+  bootstrap style
+++++++++++++++++++++++++++++++++++++++++++++*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px;
+}
+
+/*
+h1 {
+	font-size: 28px;
+}
+h2 {
+	font-size: 22px;
+h3 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 16px;
+}
+*/
+label {
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.form-control {
+    -webkit-border-radius: 0%;
+       -moz-border-radius: 0%;
+	   		border-radius: 0%;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+	   		box-shadow: none;	   		
+}
+textarea.form-control {
+	min-height: 150px;
+}
+.buttonBlue {
+	width: 200px;
+	height: 45px;
+	background-color: #186aa9;
+	border-radius: 50px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	border: none;
+}
+.buttonBlue:hover {
+	background-color: #235f8e;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++
+  header style
+++++++++++++++++++++++++++++++++++++++++++++*/
+.topLine {
+	background-color: #273a49;
+	height: 42px;
+	color: #8b99a3;
+}
+.topLine h5 {
+	line-height: 40px;
+	text-align: center;
+}
+.topLine ul li {
+	list-style: none;
+	display: inline;
+	line-height: 40px;
+	float: right;
+	margin-left: 20px;
+	}
+.topLine ul li a {
+	text-decoration: none;
+	color: #8b99a3;
+}
+.head {}
+.headLogo {
+	background-image: url(../../i/images/logoEMS.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 110px;
+	margin: 10px 0;
+}
+.headContact {
+	height: 45px;
+	background-color: #f2f8fd;
+	font-size: 16px;
+	color: #728aa0;
+	text-transform: uppercase;
+	margin: 22px 0 0;
+	padding: 10px 20px 10px 0;
+	border-radius: 50px;
+	border: 1px solid #f2f8fd;
+	float: left;
+}
+
+.headContact ul li{
+	list-style: none;
+	display: inline;
+margin-left: 20px;
+}
+.headContact ul li:last-child {
+	
+}
+.headButt {
+	margin: 22px 4.6% 0;
+	float: left;
+}
+.headSeach {
+	width: 307px;
+	height: 45px;
+	margin: 22px 0 0;
+	border: 1px solid #fdac11;
+	border-radius: 50px;
+	text-align: center;
+	text-transform:uppercase;
+	color: #fdac11;
+	float: left;
+	padding: 10px 0 0;
+}
+.headSeach img {
+	margin: 0 15px;
+	float: left;
+}
+.headSeach i {
+	float: right;
+	margin: 0 15px;
+}
+.mainMenu {
+	margin-top: 30px;
+}
+.mainMenu ul li {
+	list-style: none;
+	display: inline;
+	margin-left:  7.7%;
+}
+.mainMenu ul li:first-child {
+	margin-left: 0;
+}
+.mainMenu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+}
+.mashyny {
+	background-image: url(../../i/images/Mashyny_02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 660px;
+}
+.slider div.row {
+	margin-left: 25px;
+}
+.slider hr {
+	width: 82%;
+	height: 3px;
+	background-color: #fdac11;
+	margin: 130px 0 16px 0;	
+	border-style: none;
+}
+.slider h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	background-color: #186aa9;
+	color: #ffffff;
+}
+.slider h1:first-child {
+	width: 88%;
+	padding-left: 3px
+}
+.slider h1:last-child {
+	width: 54%;
+	padding-left: 3px
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+  content style
+++++++++++++++++++++++++++++++++++++++++++++*/
+.calculator. {
+	height: 132px;
+	background-color: blue;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++
+   footer style
+++++++++++++++++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++++++++++++++++++++++++++
+   plugins style
+++++++++++++++++++++++++++++++++++++++++++++*/
