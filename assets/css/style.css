@@ -73,6 +73,7 @@ img {
 /* +++++++++++++++++++++++++++++++++++++++++++
   bootstrap style
 ++++++++++++++++++++++++++++++++++++++++++++*/
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -88,7 +89,29 @@ h5,
 h6 {
 	margin-top: 0px;
 }
-
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] + label {
+	cursor: pointer;
+	padding-left: 0;
+}
+input[type="checkbox"] + label span {
+	display:block;
+	width:19px;
+	height:19px;
+	margin:-1px 4px 0 0;
+	vertical-align:middle;
+	background:url(../../i/images/checkbox.png)left top no-repeat;
+	cursor:pointer;
+	background-position: 0%;
+	background-size: cover;
+}
+input[type="checkbox"]:checked + label span {
+	background:url(../../i/images/checkbox.png) top no-repeat;
+	background-position: 100%;
+	background-size: cover;
+}
 /*
 h1 {
 	font-size: 28px;
@@ -180,7 +203,7 @@ select {
 	line-height: 40px;
 	float: right;
 	margin-left: 20px;
-	}
+}
 .topLine ul li a {
 	text-decoration: none;
 	color: #8b99a3;
@@ -201,7 +224,7 @@ select {
 	height: 45px;
 	background-color: #f2f8fd;
 	font-size: 16px;
-	color: #728aa0;
+	
 	text-transform: uppercase;
 	margin: 22px 0 0;
 	padding: 10px 20px 10px 0;
@@ -214,9 +237,10 @@ select {
 	list-style: none;
 	display: inline;
 	margin-left: 20px;
+	color: #728aa0;
 }
 .headContact ul li:last-child {
-	
+
 }
 .headButt {
 	margin: 22px 4% 0;
@@ -262,7 +286,8 @@ select {
 	background-image: url(../../i/images/Mashyny_02.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 670px;
+	height: 620px;
+
 }
 .slider div.row {
 	margin-left: 25px;
@@ -300,17 +325,18 @@ select {
 	background-position: center bottom;
 }
 .stoimost {}
-.stoimost hr {
-	width: 35%;
+.stoimost hr, .uslugiName hr, .polInformName hr, .newsRow hr {
+	width: 95px;
 	height: 3px;
 	background-color: #fdac11;
 	margin: 40px 0 16px 0;
 	border-style: none;
 }
-.stoimost h3 {
+.stoimost h3, .uslugiName h3, .polInformName h3, .newsRow h3 {
 	font-size: 24px;
 	text-transform: uppercase;
 	color: #ffffff;
+	font-weight: 800;
 }
 .switch {
 	height: 40px;
@@ -356,35 +382,7 @@ select {
 	margin-bottom: 65px;
 }
 
-/*
-input[type="checkbox"] + label {
-	background: url(../../i/images/empty-checkbox.png) 0 0 no-repeat;
-	padding-left: 20px;
-}
-*/
-input[type="checkbox"] {
-	display: none;
-}
-input[type="checkbox"] + label {
-	cursor: pointer;
-	padding-left: 0;
-}
-input[type="checkbox"] + label span {
-	display:block;
-	width:19px;
-	height:19px;
-	margin:-1px 4px 0 0;
-	vertical-align:middle;
-	background:url(../../i/images/checkbox.png)left top no-repeat;
-	cursor:pointer;
-	background-position: 0%;
-	background-size: cover;
-}
-input[type="checkbox"]:checked + label span {
-	background:url(../../i/images/checkbox.png) top no-repeat;
-	background-position: 100%;
-	background-size: cover;
-}
+
 .classDostavky p, .ves p, .cennost p, .nds  {
 	margin-top: 15px;
 }
@@ -393,7 +391,7 @@ input[type="checkbox"]:checked + label span {
 	height: 405px;
 	background-color: #316997;
 	bottom: 80px;
-	left: 30px;
+	left: 10%;
 }
 .col1, .col2 {
 	float: left;
@@ -409,9 +407,9 @@ input[type="checkbox"]:checked + label span {
 	background-image: url("../../i/images/sprait1.png");
 	background-repeat: no-repeat;
 	background-position: 0px;
+	background-size: cover;
 	width: 75px;
 	height: 72px;
-	background-size: cover;
 	margin-bottom: 20px;
 }
 .col2_ing {
@@ -429,9 +427,170 @@ input[type="checkbox"]:checked + label span {
 .rez {
 	font-size: 21px;
 }
+.uslugiName {}
+
+.uslugiName h3 {
+	color: #2c3741;
+}
+.topImg1, .topImg2, .topImg3, .topImg4 {
+	background-image: url("../../i/images/sprait2.png");
+	background-repeat: no-repeat;
+	background-position: 0px;
+	background-size: cover;
+	width: 75px;
+	height: 72px;
+	margin: 0 auto 50px;
+}
+.descript {
+	border-bottom: 3px solid #fdac11;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	height: 75px;
+	
+}
+.descript:hover {
+	border-bottom: 3px solid #1d5988;;
+}
+.uslug {
+	width: 275px;
+	height: 415px;
+	border: 3px solid #ffffff;
+	padding: 30px 15px 20px;
+	margin-bottom: 115px;
+}
+.uslug:hover {
+	border: 3px solid #fdac11;
+	cursor: pointer;
+}
+.uslug .descript p {
+	text-transform: uppercase;
+	color: #2c3741;
+	font-weight: 700;
+}
+.uslug .descript p:hover {
+	color: #1d5988;
+	cursor: pointer;
+	font-weight: 700;
+}
+.uslug p {
+	color: #868686;
+	font-size: 15px;
+}
+.topImg2 {
+	background-image: url("../../i/images/sprait2.png");
+	background-position: -100px;
+}
+.topImg3 {
+	background-image: url("../../i/images/sprait2.png");
+	background-position: -200px;
+}
+.topImg4 {
+	background-image: url("../../i/images/sprait2.png");
+	background-position: -300px;
+}
+.rows {
+	clear: left;
+	padding-right: 0;
+}
+.polInformName h3 {
+	color: #ffffff;
+}
+.polInform {
+	background-color: #2c475b;
+}
+.polInformRow {
+	height: 58px;
+	background-color: #3b576c;
+	margin-bottom: 8px;
+	padding-left: 15px;
+}
+.polInformRow:hover {
+	background-color: #fdac11;
+	color: #2c475b;
+}
+.polInformRow p {
+	line-height: 4;
+	margin-left: 70px;
+}
+.polInformImg1, .polInformImg2, .polInformImg3, .polInformImg4, .polInformImg5, .polInformImg6 {
+	background-image: url(../../i/images/sprait3.png);
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	width: 60px;
+	height: 50px;
+	float: left;
+}
+.polInformImg2 {
+	background-position: -80px 5px;
+}
+.polInformImg3 {
+	background-position: -145px 4px;
+}
+.polInformImg4 {
+	background-position: -223px 4px;
+}
+.polInformImg5 {
+	background-position: -303px 4px;
+}
+.polInformImg6 {
+	background-position: -380px 3px;
+}
+
+.polInformImg1:hover {
+	background-position: 0px -63px;
+}
+.polInformImg2:hover {
+	background-position: -80px -68px;
+}
+.polInformImg3:hover {
+	background-position: -145px -64px;
+}
+.polInformImg4:hover {
+	background-position: -223px -70px;
+}
+.polInformImg5:hover {
+	background-position: -303px -68px;
+}
+.polInformImg6:hover {
+	background-position: -380px -68px;
+}
+.polinfdesc {
+	background-image: url(../../i/images/air.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 549px;
+	padding-left: 0;
+	position: absolute;
+}
+.polInformRow:last-child {
+	margin-bottom: 65px;
+}
+.newsRow h3 {
+	color: #2c3741;
+}
+.news .row {
+	margin-left: 0;
+}
+.avto1 {
+	clear: left;
+}
+.avto1, .avto2, .avto3  {
+	background-image: url(../../i/images/avto_06.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 320px;
+
+}
+.avto2 {
+	background-image: url(../../i/images/avto_03.png);
+}
+.avto3 {
+	background-image: url(../../i/images/avto_09.png);
+}
 /* +++++++++++++++++++++++++++++++++++++++++++
    footer style
 ++++++++++++++++++++++++++++++++++++++++++++*/
+
 /* +++++++++++++++++++++++++++++++++++++++++++
    plugins style
 ++++++++++++++++++++++++++++++++++++++++++++*/
