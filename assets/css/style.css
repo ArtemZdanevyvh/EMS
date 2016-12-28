@@ -65,6 +65,7 @@ html {
 body, ul {
 	padding: 0;
 	margin: 0;
+	color: #ffffff;
 }
 img {
 	max-width: 100%;
@@ -132,6 +133,35 @@ textarea.form-control {
 .buttonBlue:hover {
 	background-color: #235f8e;
 }
+.buttonOrang {
+	width: 200px;
+	height: 45px;
+	background-color: #fdac11;
+	border-radius: 50px;
+	color: #000000;
+	border: none;
+	font-size: 18px;
+}
+.buttonOrang:hover {
+	background: #ff9c28;
+}
+select {
+
+	/*for WebKit*/
+	-webkit-appearance: none;
+	/* for FF */
+	-moz-appearance: none;
+	text-indent: 0.01px; 
+	text-overflow: '';
+	/* for IE */
+	-ms-appearance: none;
+	appearance: none!important;
+	background-image: url("../../i/images/angle-arrow-down.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-position: 97%;
+	background-size: 10px;
+}
 /* +++++++++++++++++++++++++++++++++++++++++++
   header style
 ++++++++++++++++++++++++++++++++++++++++++++*/
@@ -155,6 +185,9 @@ textarea.form-control {
 	text-decoration: none;
 	color: #8b99a3;
 }
+.topLine ul li a:hover {
+	color: #ffffff;
+}
 .head {}
 .headLogo {
 	background-image: url(../../i/images/logoEMS.png);
@@ -162,6 +195,7 @@ textarea.form-control {
 	background-size: cover;
 	height: 110px;
 	margin: 10px 0;
+	clear: left;
 }
 .headContact {
 	height: 45px;
@@ -179,13 +213,13 @@ textarea.form-control {
 .headContact ul li{
 	list-style: none;
 	display: inline;
-margin-left: 20px;
+	margin-left: 20px;
 }
 .headContact ul li:last-child {
 	
 }
 .headButt {
-	margin: 22px 4.6% 0;
+	margin: 22px 4% 0;
 	float: left;
 }
 .headSeach {
@@ -214,10 +248,10 @@ margin-left: 20px;
 .mainMenu ul li {
 	list-style: none;
 	display: inline;
-	margin-left:  7.7%;
+	margin-left:  7.5%;
 }
 .mainMenu ul li:first-child {
-	margin-left: 0;
+	margin-left: 20px;
 }
 .mainMenu ul li a {
 	text-decoration: none;
@@ -228,7 +262,7 @@ margin-left: 20px;
 	background-image: url(../../i/images/Mashyny_02.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 660px;
+	height: 670px;
 }
 .slider div.row {
 	margin-left: 25px;
@@ -258,9 +292,142 @@ margin-left: 20px;
 /* +++++++++++++++++++++++++++++++++++++++++++
   content style
 ++++++++++++++++++++++++++++++++++++++++++++*/
-.calculator. {
-	height: 132px;
-	background-color: blue;
+.calculator {
+	background-color: #1d5988;
+	background-image: url(../../i/images/fonCalk_02.png);
+	background-repeat: no-repeat;
+	background-size: 114%;
+	background-position: center bottom;
+}
+.stoimost {}
+.stoimost hr {
+	width: 35%;
+	height: 3px;
+	background-color: #fdac11;
+	margin: 40px 0 16px 0;
+	border-style: none;
+}
+.stoimost h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.switch {
+	height: 40px;
+	clear: left;
+	margin: 30px 0;
+}
+.switch1 {
+	width: 35%;
+	height: 40px;
+	background-color: #ffffff;
+	color: #1d5988;
+	border-radius: 25px 0 0 25px;
+	float: left;
+	text-align: center;
+	padding: 10px 0 0 5px;
+}
+.switch2 {
+	width: 65%;
+	height: 40px;
+	background-color: #fdac11;
+	color: #ffffff;
+	border-radius: 0 50px 50px 0;
+	float: left;
+	text-align: center;
+	padding: 10px 5px 0 0;
+}
+.otkudaCol {
+	clear: left;
+}
+.otkudaCol select, input, .kudaCol select {
+	height: 42px;
+	border-radius: 3px;
+	color: #2c3741;
+	width: 100%;
+	border: none;
+	margin: 0px 0 15px 0;
+}
+
+.otkudaCol p, .kudaCol label, .kudaCol p {
+	color: #ffffff;
+}
+.otkudaCol input {
+	margin-bottom: 65px;
+}
+
+/*
+input[type="checkbox"] + label {
+	background: url(../../i/images/empty-checkbox.png) 0 0 no-repeat;
+	padding-left: 20px;
+}
+*/
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] + label {
+	cursor: pointer;
+	padding-left: 0;
+}
+input[type="checkbox"] + label span {
+	display:block;
+	width:19px;
+	height:19px;
+	margin:-1px 4px 0 0;
+	vertical-align:middle;
+	background:url(../../i/images/checkbox.png)left top no-repeat;
+	cursor:pointer;
+	background-position: 0%;
+	background-size: cover;
+}
+input[type="checkbox"]:checked + label span {
+	background:url(../../i/images/checkbox.png) top no-repeat;
+	background-position: 100%;
+	background-size: cover;
+}
+.classDostavky p, .ves p, .cennost p, .nds  {
+	margin-top: 15px;
+}
+.resultCol {
+	width: 39%;
+	height: 405px;
+	background-color: #316997;
+	bottom: 80px;
+	left: 30px;
+}
+.col1, .col2 {
+	float: left;
+	margin: 20px 5px 0px 5px;
+	width: 200px;
+	padding: 0 14px;
+}
+
+.col1 ul li, .col2 ul li {
+	list-style: none;
+}
+.col1_ing, .col2_ing {
+	background-image: url("../../i/images/sprait1.png");
+	background-repeat: no-repeat;
+	background-position: 0px;
+	width: 75px;
+	height: 72px;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.col2_ing {
+	background-position: -110px;
+}
+.resultCol .buttonOrang {
+	float: left;
+	margin-top: 40px;
+	margin-left: 25%;
+	margin-bottom: 30px;
+}
+.mar20 {
+	margin: 20px 0;
+}
+.rez {
+	font-size: 21px;
 }
 /* +++++++++++++++++++++++++++++++++++++++++++
    footer style

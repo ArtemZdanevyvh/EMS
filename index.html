@@ -92,7 +92,7 @@
 		<div class="container slider">
 		<!-- Головний слайдер -->
 			<div class="row"> 
-				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+				<div class="col-lg-7 col-md-7 col-sm-6 col-xs-6">
 					<hr>
 				</div>	
 				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
@@ -101,11 +101,91 @@
 				</div>
 			</div>	
 		</div>
-		<section class="container calculator">
-			<div class="row"> 
-				<div class="col-lg-12 col-md-12 col-sm-3 col-xs-5"></div>
+	</div>	
+	<div class="container-fluid calculator">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 stoimost">
+					<hr>
+					<h3>Расчет стоимости</h3>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 switch">
+					<div class="switch1"><p>EMS</p></div>
+					<div class="switch2"><p>Спецсвязь</p></div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 otkudaCol">
+					<div>
+						<p>Откуда:</p>
+						<select name="" id=""></select>
+						<select name="" id=""></select>
+					</div>
+					<div class="classDostavky">
+						<p>Класс доставки:</p>
+						<select name="" id=""></select>
+					</div>
+					<div class="ves">
+						<p>Вес (кг):</p>
+						<input type="text">
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 kudaCol">
+					<div>
+					<p>Куда:</p>
+						<select name="" id=""></select>
+						<select name="" id=""></select>
+					</div>
+					<div class="cennost">
+					<p>Ценность (грн): </p>
+						<input type="text">
+					</div>
+					<div class="nds">
+						<p>С НДС:</p>
+						<input type="checkbox" id="c1" name="cc" />
+						<label for="c1"><span></span></label>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 resultCol">
+					<div class="col1">
+						<div class="col1_ing"></div>
+						<ul>
+							<li>Цена услуги без НДС:</li>
+							<li>74.00 грн</li>
+						</ul>
+						<ul class="mar20">
+							<li>НДС 20%</li>
+							<li>14.80 грн</li>
+						</ul>
+						<ul class="rez">
+							<li>Итого</li>
+							<li>88.80 грн</li>
+						</ul>
+					</div>
+					<div class="col2">
+						<div class="col2_ing"></div>
+						<ul>
+							<li>Срок доставки:</li>
+							<li>больше трех, не более семи дней</li>
+						</ul>
+						<ul class="mar20">
+							<li>Дни приема для 2 класса:</li>
+							<li>четверг</li>
+						</ul>
+						<ul>
+							<li>Дни приема для 3 класса:</li>
+							<li>ежедневно</li>
+						</ul>
+					</div>
+					<button class="buttonOrang"><p>Детальный расчет</p></button>
+				</div>
 			</div>	
-		</section>
-	</div>		
+		</div>
+	</div>
+	<div>
+		<div>
+			<div>
+				
+			</div>
+		</div>
+	</div>	
 </body>
 </html>
