@@ -1,305 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EMS</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EMS</title>
+	
+	<link href="lib/fancyBox/source/jquery.fancybox.css" rel="stylesheet">
+		<link href="lib/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+		<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">		
+		<link href="lib/font-awesome-4.5.0/css/font-awesome.css" rel="stylesheet">
+		<link href="assets/css/icomoon/style.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/animate.css" rel="stylesheet">
+		<link href="assets/css/response.css" rel="stylesheet"> 
+    
+		<script src="assets/js/jquery.js"></script>
+		<script src="lib/fancyBox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+		<script src="lib/fancyBox/source/jquery.fancybox.pack.js"></script>
+		<script src="assets/js/jquery.touchwipe.1.1.1.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="lib/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/script.js"></script>
 
-    <link href="lib/fancyBox/source/jquery.fancybox.css" rel="stylesheet">
-    <link href="lib/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
-    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="lib/font-awesome-4.5.0/css/font-awesome.css" rel="stylesheet">
-    <link href="assets/css/icomoon/style.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/response.css" rel="stylesheet">
-
-    <script src="assets/js/jquery.js"></script>
-    <script src="lib/fancyBox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-    <script src="lib/fancyBox/source/jquery.fancybox.pack.js"></script>
-    <script src="assets/js/jquery.touchwipe.1.1.1.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="lib/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
-
-    <!-- 
+		<!-- 
 		    https://oss.maxcdn.com/html5shiv/3.7.2/ 
 	    	https://oss.maxcdn.com/respond/1.4.2/
 		-->
-    <!--[if lt IE 9]>
+	    <!--[if lt IE 9]>
     	    <script src="js/html5shiv.min.js"></script>
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
 </head>
-
 <body>
-    <div class="container-fluid topLine">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-offset-2 col-lg-6 col-md-offset-2 col-md-6 col-sm-10 col-xs-10 ">
-                    <h5>ГОСУДАРСТВЕННОЕ ПРЕДПРИЯТИЕ СПЕЦИАЛЬНОЙ СВЯЗИ</h5>
-                </div>
-                <div class="col-lg-offset-2 col-lg-2 col-md-offset-2 col-md-2 col-sm-10 col-xs-10 ">
-                    <ul>
-                        <li>
-                            <a href="#">RU</a>
-                        </li>
-                        <li>
-                            <a href="#">EN</a>
-                        </li>
-                        <li>
-                            <a href="#">UKR</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid head">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 headLogo"></div>
-                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
-                    <div class="headContact">
-                        <ul>
-                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Киев, пл. Вокзальная, 3</li>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i> +38 044 245-43-15</li>
-                        </ul>
-                    </div>
-                    <button class="buttonBlue headButt">Вызвать курьера</button>
-                    <div class="headSeach">
-                        <img src="i/images/logoEMS2.png" alt="logoEMS2" width="81" height="22">Трекинг EMS <i class="fa fa-search" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 mainMenu">
-                    <ul>
-                        <li><a href="#">Услуги</a>
-                        </li>
-                        <li><a href="#">Тарифы</a>
-                        </li>
-                        <li><a href="#">Информация</a>
-                        </li>
-                        <li><a href="#">Новости</a>
-                        </li>
-                        <li><a href="#">О Компании</a>
-                        </li>
-                        <li><a href="#">Филиалы</a>
-                        </li>
-                        <li><a href="#">Контакты</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    </header>
-    <div class="container-fluid mashyny">
-        <div class="container slider">
-            <!-- Головний слайдер -->
-            <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-6 col-xs-6">
-                    <hr>
-                </div>
-                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-                    <h1>курьерские услуги по территории</h1>
-                    <h1>Украины и стран СНГ</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid calculator">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 stoimost">
-                    <hr>
-                    <h3>Расчет стоимости</h3>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 switch">
-                    <div class="switch1">
-                        <p>EMS</p>
-                    </div>
-                    <div class="switch2">
-                        <p>Спецсвязь</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 otkudaCol">
-                    <div>
-                        <p>Откуда:</p>
-                        <select name="" id=""></select>
-                        <select name="" id=""></select>
-                    </div>
-                    <div class="classDostavky">
-                        <p>Класс доставки:</p>
-                        <select name="" id=""></select>
-                    </div>
-                    <div class="ves">
-                        <p>Вес (кг):</p>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 kudaCol">
-                    <div>
-                        <p>Куда:</p>
-                        <select name="" id=""></select>
-                        <select name="" id=""></select>
-                    </div>
-                    <div class="cennost">
-                        <p>Ценность (грн):</p>
-                        <input type="text">
-                    </div>
-                    <div class="nds">
-                        <p>С НДС:</p>
-                        <input type="checkbox" id="c1" name="cc" />
-                        <label for="c1"><span></span>
-                        </label>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 resultCol">
-                    <div class="col1">
-                        <div class="col1_ing"></div>
-                        <ul>
-                            <li>Цена услуги без НДС:</li>
-                            <li>74.00 грн</li>
-                        </ul>
-                        <ul class="mar20">
-                            <li>НДС 20%</li>
-                            <li>14.80 грн</li>
-                        </ul>
-                        <ul class="rez">
-                            <li>Итого</li>
-                            <li>88.80 грн</li>
-                        </ul>
-                    </div>
-                    <div class="col2">
-                        <div class="col2_ing"></div>
-                        <ul>
-                            <li>Срок доставки:</li>
-                            <li>больше трех, не более семи дней</li>
-                        </ul>
-                        <ul class="mar20">
-                            <li>Дни приема для 2 класса:</li>
-                            <li>четверг</li>
-                        </ul>
-                        <ul>
-                            <li>Дни приема для 3 класса:</li>
-                            <li>ежедневно</li>
-                        </ul>
-                    </div>
-                    <button class="buttonOrang">
-                        <p>Детальный расчет</p>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid uslugi">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 uslugiName">
-                    <hr>
-                    <h3>Услуги</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="uslug">
-                    <div class="topImg1"></div>
-                    <div class="descript">
-                        <p>курьерские услуги по территории Украины и стран СНГ</p>
-                    </div>
-                    <p>Доставка отправлений специальной связи для юридических и физических лиц по территории Украины на второй, третий и сроком не более 7 рабочих дней.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="uslug">
-                    <div class="topImg2"></div>
-                    <div class="descript">
-                        <p>Доставка международных отправлений EMS</p>
-                    </div>
-                    <p>Доставка международных отправлений EMS в 189 стран мира. Наличие системы отслеживания прохождения и вручения международных отправлений EMS.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="uslug">
-                    <div class="topImg3"></div>
-                    <div class="descript">
-                        <p>таможенно-брокерские услуги</p>
-                    </div>
-                    <p>ООО "Делайт Сервис" проводит консультации по вопросам деятельности относительно Украинского таможенного законодательства.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="uslug">
-                    <div class="topImg4"></div>
-                    <div class="descript">
-                        <p>охранные услуги</p>
-                    </div>
-                    <p>ВОХР обеспечивает круглосуточную вооруженную охрану объектов разных категорий сложности по их классификации.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid polInform ">
-       <div class="row">
-		   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		   <div class="informat">
-					<div class="polInformName">
-						<hr>
-						<h3>Полезная информация</h3>
-					</div>
-					<div class="rows">
-						<div class="polInformRow">
-							<div class="polInformImg1"></div>
-							<p>Пункты приема отправлений в Киеве</p>
-						</div>
-						<div class="polInformRow">
-							<div class="polInformImg2"></div>
-							<p>Пункты приёма отправлений в Киевской области</p>
-						</div>
-						<div class="polInformRow">
-							<div class="polInformImg3"></div>
-							<p>Образцы оформления сопроводительных документов</p>
-						</div>
-						<div class="polInformRow">
-							<div class="polInformImg4"></div>
-							<p>Образцы договоров</p>
-						</div>
-						<div class="polInformRow">
-							<div class="polInformImg5"></div>
-							<p>Дополнительная информация для заключения договоров</p>
-						</div>
-						<div class="polInformRow">
-							<div class="polInformImg6"></div>
-							<p>Классы приёма отправлений спецсвязи в г.Киеве</p>
-						</div>
-					</div>
+	<div class="container-fluid topLine">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-offset-2 col-lg-6 col-md-offset-2 col-md-6 col-sm-10 col-xs-10 ">
+					<h5>ГОСУДАРСТВЕННОЕ ПРЕДПРИЯТИЕ СПЕЦИАЛЬНОЙ СВЯЗИ</h5>
+				</div>
+				<div class="col-lg-offset-2 col-lg-2 col-md-offset-2 col-md-2 col-sm-10 col-xs-10 ">
+					<ul>
+						<li>
+							<a href="#">RU</a>
+						</li>
+						<li>
+							<a href="#">EN</a>
+						</li>
+						<li>
+							<a href="#">UKR</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-        </div>
-        
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 polinfdesc"></div>
 		</div>
-    </div>
-    <div class="container-fluid news">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 newsRow">
-                    <hr>
-                    <h3>Новости</h3>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 avto1">
-					<div class="avtoHov"></div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 avto2">
-					<div class="avtoHov"></div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 avto3">
-					<div class="avtoHov"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+	</div>
+	<div class="container-fluid head">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 headLogo"></div>
+				<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+					<div class="headContact">
+						<ul>
+							<li><i class="fa fa-map-marker" aria-hidden="true"></i> Киев, пл. Вокзальная, 3</li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i> +38 044 245-43-15</li>
+						</ul>
+					</div>
+					<button class="buttonBlue headButt">Вызвать курьера</button>
+					<div class="headSeach">
+						<img src="i/images/logoEMS2.png" alt="logoEMS2" width="81" height="22"> Трекинг EMS <i class="fa fa-search" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 mainMenu">
+					<ul>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Тарифы</a></li>
+						<li><a href="#">Информация</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">О Компании</a></li>
+						<li><a href="#">Филиалы</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>				    
+	</header>
+	<div class="container-fluid mashyny">
+		<div class="container slider">
+			<!-- Головний слайдер -->
+			<div class="row"> 
+				<div class="col-lg-7 col-md-7 col-sm-6 col-xs-6">
+					<hr>
+				</div>	
+				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+					<h1>курьерские услуги по территории</h1>
+					<h1>Украины и стран СНГ</h1>
+				</div>
+			</div>	
+		</div>
+	</div>	
+	<div class="container-fluid calculator">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 stoimost">
+					<hr>
+					<h3>Расчет стоимости</h3>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 switch">
+					<div class="switch1"><p>EMS</p></div>
+					<div class="switch2"><p>Спецсвязь</p></div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 otkudaCol">
+					<div>
+						<p>Откуда:</p>
+						<select name="" id=""></select>
+						<select name="" id=""></select>
+					</div>
+					<div class="classDostavky">
+						<p>Класс доставки:</p>
+						<select name="" id=""></select>
+					</div>
+					<div class="ves">
+						<p>Вес (кг):</p>
+						<input type="text">
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 kudaCol">
+					<div>
+					<p>Куда:</p>
+						<select name="" id=""></select>
+						<select name="" id=""></select>
+					</div>
+					<div class="cennost">
+					<p>Ценность (грн): </p>
+						<input type="text">
+					</div>
+					<div class="nds">
+						<p>С НДС:</p>
+						<input type="checkbox" id="c1" name="cc" />
+						<label for="c1"><span></span></label>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 resultCol">
+					<div class="col1">
+						<div class="col1_ing"></div>
+						<ul>
+							<li>Цена услуги без НДС:</li>
+							<li>74.00 грн</li>
+						</ul>
+						<ul class="mar20">
+							<li>НДС 20%</li>
+							<li>14.80 грн</li>
+						</ul>
+						<ul class="rez">
+							<li>Итого</li>
+							<li>88.80 грн</li>
+						</ul>
+					</div>
+					<div class="col2">
+						<div class="col2_ing"></div>
+						<ul>
+							<li>Срок доставки:</li>
+							<li>больше трех, не более семи дней</li>
+						</ul>
+						<ul class="mar20">
+							<li>Дни приема для 2 класса:</li>
+							<li>четверг</li>
+						</ul>
+						<ul>
+							<li>Дни приема для 3 класса:</li>
+							<li>ежедневно</li>
+						</ul>
+					</div>
+					<button class="buttonOrang"><p>Детальный расчет</p></button>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="container-fluid uslugi">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 uslugiName">
+					<hr>
+					<h3>Услуги</h3>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<div class="uslug">
+					<div class="topImg1"></div>
+					<div class="descript">
+						<p>курьерские услуги по территории Украины и стран СНГ</p>
+					</div>
+					<p>Доставка отправлений специальной связи для юридических и физических лиц по территории Украины на второй, третий и сроком не более 7 рабочих дней.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<div class="uslug">
+					<div class="topImg2"></div>
+					<div class="descript">
+						<p>Доставка международных отправлений EMS</p>
+					</div>
+					<p>Доставка международных отправлений EMS в 189 стран мира. Наличие системы отслеживания прохождения и вручения международных отправлений EMS.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<div class="uslug">
+					<div class="topImg3"></div>
+					<div class="descript">
+						<p>таможенно-брокерские услуги</p>
+					</div>
+					<p>ООО "Делайт Сервис" проводит консультации по вопросам деятельности относительно Украинского таможенного законодательства.</p>
+				</div>
+				</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<div class="uslug">
+					<div class="topImg4"></div>
+					<div class="descript">
+						<p>охранные услуги</p>
+					</div>
+					<p>ВОХР обеспечивает круглосуточную вооруженную охрану объектов разных категорий сложности по их классификации.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid polInform">
+	<div class="row">
+		<div class="col-lg-offset-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 polinfdesc"></div>
+	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 polInformName">
+					<hr>
+					<h3>Полезная информация</h3>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 rows">
+					<div class="polInformRow">
+						<div class="polInformImg1"></div>
+						<p>Пункты приема отправлений в Киеве</p>
+					</div>
+					<div class="polInformRow">
+						<div class="polInformImg2"></div>
+						<p>Пункты приёма отправлений в Киевской области</p>
+					</div>
+					<div class="polInformRow">
+						<div class="polInformImg3"></div>
+						<p>Образцы оформления сопроводительных документов</p>
+					</div>
+					<div class="polInformRow">
+						<div class="polInformImg4"></div>
+						<p>Образцы договоров</p>
+					</div>
+					<div class="polInformRow">
+						<div class="polInformImg5"></div>
+						<p>Дополнительная информация для заключения договоров</p>
+					</div>
+					<div class="polInformRow">
+						<div class="polInformImg6"></div>
+						<p>Классы приёма отправлений спецсвязи в г.Киеве</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="container-fluid news">
+		<div class="container">
+			<div class="row"> 
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 newsRow">
+					<hr>
+					<h3>Новости</h3>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 avto1"></div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 avto2"></div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 avto3"></div>
+			</div>	
+		</div>
+	</div>	
 </body>
-
 </html>

@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'MuseoSansBlack';
-    src: url('fonts/MuseoSansBlack.eot');
-    src: url('fonts/MuseoSansBlack.eot') format('embedded-opentype'),
-         url('fonts/MuseoSansBlack.woff2') format('woff2'),
-         url('fonts/MuseoSansBlack.woff') format('woff'),
-         url('fonts/MuseoSansBlack.ttf') format('truetype'),
-         url('fonts/MuseoSansBlack.svg#MuseoSansBlack') format('svg');
-}

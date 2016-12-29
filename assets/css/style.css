@@ -491,7 +491,6 @@ select {
 .rows {
 	clear: left;
 	padding-right: 0;
-	width: 580px;
 }
 .polInformName h3 {
 	color: #ffffff;
@@ -561,16 +560,11 @@ select {
 	background-size: cover;
 	height: 549px;
 	padding-left: 0;
-	background-position: 30%;
+	position: absolute;
 }
 .polInformRow:last-child {
 	margin-bottom: 65px;
 }
-.informat {
-	position: absolute;
-	left: 27.8%;
-}
-
 .newsRow h3 {
 	color: #2c3741;
 }
@@ -585,41 +579,13 @@ select {
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 320px;
-	border: 3px solid;
+
 }
 .avto2 {
 	background-image: url(../../i/images/avto_03.png);
 }
 .avto3 {
 	background-image: url(../../i/images/avto_09.png);
-}
-.avtoHov {
-	background-color: #1664a0;
-	position: absolute;
-	width: 96.5%;
-	height: 100%;
-	left: 0px;
-	top: 0px;
-	opacity: 0.8;
-	z-index: 15;
-	-webkit-transition: 0.3s Ease;
-	-moz-transition: 0.3s Ease; 
-	-o-transition: 0.3s Ease;
-	transition: 0.3s Ease;
-}
-
-
-.avto1:hover .avtoHov {
-	border: 3px solid #fdac11;
-	opacity: 0.4;
-	}
-.avto2:hover .avtoHov {
-	border: 3px solid #fdac11;
-	opacity: 0.4;
-}
-.avto3:hover .avtoHov {
-	border: 3px solid #fdac11;
-	opacity: 0.4;
 }
 /* +++++++++++++++++++++++++++++++++++++++++++
    footer style
