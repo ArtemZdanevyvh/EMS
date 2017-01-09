@@ -168,6 +168,13 @@ textarea.form-control {
 .buttonOrang:hover {
 	background: #ff9c28;
 }
+.buttonNoBody {
+	width: 200px;
+	height: 45px;
+	border-radius: 50px;
+	border: 2px solid #fdac11;
+	color: #fdac11;
+}
 select {
 
 	/*for WebKit*/
@@ -211,11 +218,13 @@ select {
 .topLine ul li a:hover {
 	color: #ffffff;
 }
-.head {}
+.head {
+	clear: left;
+}
 .headLogo {
 	background-image: url(../../i/images/logoEMS.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	height: 110px;
 	margin: 10px 0;
 	clear: left;
@@ -226,7 +235,7 @@ select {
 	font-size: 16px;
 	
 	text-transform: uppercase;
-	margin: 22px 0 0;
+	margin: 22px 0 0 -80px;
 	padding: 10px 20px 10px 0;
 	border-radius: 50px;
 	border: 1px solid #f2f8fd;
@@ -268,6 +277,7 @@ select {
 }
 .mainMenu {
 	margin-top: 30px;
+	margin-left: -80px;
 }
 .mainMenu ul li {
 	list-style: none;
@@ -281,6 +291,11 @@ select {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #000000;
+}
+.mainMenu ul li a:hover {
+	color: #186aa9;
+	border-bottom: 2px #fdac11 solid;
+	padding-bottom: 13px;
 }
 .mashyny {
 	background-image: url(../../i/images/Mashyny_02.png);
@@ -387,11 +402,11 @@ select {
 	margin-top: 15px;
 }
 .resultCol {
-	width: 39%;
 	height: 405px;
 	background-color: #316997;
 	bottom: 80px;
 	left: 10%;
+	position: relative;
 }
 .col1, .col2 {
 	float: left;
@@ -491,6 +506,7 @@ select {
 .rows {
 	clear: left;
 	padding-right: 0;
+	width: 580px;
 }
 .polInformName h3 {
 	color: #ffffff;
@@ -560,11 +576,16 @@ select {
 	background-size: cover;
 	height: 549px;
 	padding-left: 0;
-	position: absolute;
+	background-position: 30%;
 }
 .polInformRow:last-child {
 	margin-bottom: 65px;
 }
+.informat {
+	position: absolute;
+	left: 27.8%;
+}
+
 .newsRow h3 {
 	color: #2c3741;
 }
@@ -579,7 +600,7 @@ select {
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 320px;
-
+	border: 3px solid;
 }
 .avto2 {
 	background-image: url(../../i/images/avto_03.png);
@@ -587,10 +608,105 @@ select {
 .avto3 {
 	background-image: url(../../i/images/avto_09.png);
 }
+.avtoHov {
+	background-color: #1664a0;
+	position: absolute;
+	width: 96.5%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	opacity: 0.8;
+	z-index: 15;
+	-webkit-transition: 0.3s Ease;
+	-moz-transition: 0.3s Ease; 
+	-o-transition: 0.3s Ease;
+	transition: 0.3s Ease;
+}
+
+
+.avto1:hover .avtoHov {
+	border: 3px solid #fdac11;
+	opacity: 0.4;
+	}
+.avto2:hover .avtoHov {
+	border: 3px solid #fdac11;
+	opacity: 0.4;
+}
+.avto3:hover .avtoHov {
+	border: 3px solid #fdac11;
+	opacity: 0.4;
+}
+.butAllNews {
+	margin: 30px 0 70px 41%;
+}
+
 /* +++++++++++++++++++++++++++++++++++++++++++
    footer style
 ++++++++++++++++++++++++++++++++++++++++++++*/
-
+.footer {
+	background-color: #2d3a44;
+}
+#imaginary_container {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.stylish-input-group .input-group-addon, .input-group.stylish-input-group input {
+	background-color: #3b4751;
+	border: none;
+	border-radius: 2px;
+	color: #8997a1;
+}
+.input-group.stylish-input-group .form-control:focus {
+	box-shadow: none !important;
+}
+.stylish-input-group button{
+	border:0;
+	background:transparent;
+}
+.footCol11 ul li {
+	line-height: 30px;
+}
+.footCol11 ul li i {
+	font-size: 20px;
+	margin-right: 10px;
+}
+.footCol11 {
+	float: left;
+	margin-bottom: 50px;
+}
+.footCol12 {
+	float: right;
+}
+.footCol21 ul li, .footCol22 ul li, .footCol5 ul li {
+	line-height: 25px;
+}
+.footCol21 ul a, .footCol22 ul a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.footCol21 ul a:hover {
+	color: #fdac11;
+	cursor: pointer;
+}
+.footCol22 ul a:hover {
+	color: #fdac11;
+	cursor: pointer;
+}
+.footCol11 ul li, .footCol12 ul li, .footCol21 ul li, .footCol22 ul li, .footCol5 ul li {
+	list-style: none;
+}
+.footCol21 {
+	float: left;
+}
+.footCol22 {
+	float: right;
+}
+.footCol5 {
+	margin-top: 36px;
+}
+.liMar {
+	margin-top: 10px;
+}
 /* +++++++++++++++++++++++++++++++++++++++++++
    plugins style
 ++++++++++++++++++++++++++++++++++++++++++++*/
