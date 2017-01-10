@@ -617,7 +617,7 @@ select {
 	background-image: url(../../i/images/avto_06.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 320px;
+	height: 296px;
 	border: 3px solid;
 }
 .avto2 {
@@ -628,8 +628,7 @@ select {
 }
 .avtoHov {
 	background-color: #1664a0;
-	position: absolute;
-	width: 96.5%;
+	width: 100%;
 	height: 100%;
 	left: 0px;
 	top: 0px;

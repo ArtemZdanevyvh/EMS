@@ -1,12 +1,92 @@
-@media (max-width: 767px) {
+@media ( max-width: 648px) {
+	
+}
+@media (min-width: 649px) and ( max-width: 767px) {
 	html {
     	height: auto;
 	}
 	body {
 	    min-height: 100%;	
 	}
+	.headLogo {
+		height: 72px;
+	}
+	.headContact, .headButt, .headSeach {
+		margin-left: 0;
+	}
+	.mainMenu {
+		margin: 10px 0 0 0;
+	}
+	.mainMenu ul li {
+		display: block;
+		margin: 13px 0 !important;
+	}
+	.topLine ul li {
+		margin-left: 5px;
+	}
+	.slider h1 {
+		font-size: 23px
+	}
+	.resultCol {
+		top: 0;
+		left: 0;
+	}
+	.col1, .col2 {
+		margin: 20px 5px 0px 60px;
+		width: 200px;
+	}
+	.calculator {
+		background-image: none;
+	}
+	.resultCol .buttonOrang {
+		margin-left: 39%;
+	}
 
-
+	.resultCol .buttonOrang {
+		margin-left: 33%;
+	}
+	.polinfdesc {
+		visibility: hidden;
+	}
+	.informat {
+		left: auto;
+	}
+	.rows {
+		width: 100%;
+	}
+	.polInformRow {
+		width: 120%;
+	}
+	.avto1, .avto2, .avto3 {
+		height: 134px;
+	}
+	.butAllNews {
+		margin: 30px 0 30px 35%;
+	}
+	#imaginary_container {
+		margin-bottom: 30px;
+	}
+	.arrTop {
+		left: 105%;
+	}
+	.footCol11 {
+		width: 57%;
+	}
+	.footCol22 {
+		float: left;
+		margin-left: 30px;
+	}
+	.footCol5 {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	.footCol5 ul {
+		display: inline-flex;
+	}
+	.footCol5 ul li {
+		margin-right: 15px;
+		letter-spacing: 1px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) {	
 
@@ -43,6 +123,70 @@
 	}
 	.collapse.in {
 		display: block !important;
+	}
+	
+	.headContact, .headButt, .headSeach {
+		margin-left: 0;
+	}
+	.mainMenu {
+		margin: 10px 0 0 0;
+	}
+	.mainMenu ul li {
+		display: block;
+		margin: 13px 21% !important;
+	}
+	.slider h1 {
+		font-size: 30px;
+	}
+	.resultCol {
+		top: 0;
+		left: 0;
+	}
+	.col1, .col2 {
+		margin: 20px 5px 0px 60px;
+		width: 285px;
+	}
+	.resultCol .buttonOrang {
+		margin-left: 39%;
+	}
+	.polinfdesc {
+		visibility: hidden;
+	}
+	.rows {
+		width: 150%;
+	}
+	.informat {
+		left: 7.8%;
+	}
+	.polInformRow {
+		width: 100%;
+	}
+	.avto1, .avto2, .avto3 {
+		height: 177px;
+	}
+	.butAllNews {
+		margin: 30px 0 30px 35%;
+	}
+	.arrTop {
+		left: 105%;
+	}
+	.footCol22 {
+		float: left;
+		margin-left: 30px;
+	}
+	.footCol5 ul {
+		display: inline-flex;
+	}
+	.footCol5 ul li {
+		margin-right: 15px;
+		letter-spacing: 1px;
+	}
+	.footCol5 {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.container-fluid {
+		padding-left: 5px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {		
@@ -127,7 +271,7 @@
 		font-size: 13px;
 	}
 	.avto1, .avto2, .avto3 {
-		height: 265px;
+		height: 239px;
 	}
 	.arrTop {
 		left: 105%;
