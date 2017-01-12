@@ -1,6 +1,191 @@
+
 @media ( max-width: 648px) {
-	
+	.navbar-collapse.in {
+		width: 100%;
+	}
+	.topLine h5 {
+		line-height: 20px;
+		font-size: 12px;
+		text-align: left;
+	}
+	.topLine ul li {
+		line-height: 20px;
+	}
+	.topLine ul li a {
+		font-size: 12px;
+	}
+	.headLogo {
+		height: 80px;
+	}
+	.headContact, .headButt, .headSeach {
+		margin-left: 0;
+	}
+	.mainMenu {
+		margin: 10px 0 0 0;
+	}
+	.mainMenu ul li {
+		display: block;
+		margin: 13px 0 !important;
+	}
+	.topLine ul li {
+		margin-left: 5px;
+	}
+	.headContact {
+		margin: 0;
+		height: 63px;
+		font-size: 14px;
+		text-transform: none;
+		
+	}
+	.headSeach {
+		width: auto;
+	}
+	.headSeach img {
+		margin: 0 15px;
+		float: none;
+		width: 60px !important;
+		height: 20px !important;
+	}
+	.slider h1:first-child {
+		width: auto;
+	}
+	.slider h1 {
+		font-size: 17px;
+	}
+	.resultCol {
+		bottom: auto;
+		left: auto;
+		height: 550px;
+	}
+	.col1_ing, .col2_ing {
+		height: 47px;
+		width: 50px;
+	}
+	.col2_ing {
+		background-position: -71px;
+	}
+	.resultCol .buttonOrang {
+		margin-left: 10%;
+	}
+	.calculator {
+		background-image: none;
+	}
+	.uslug {
+		width: auto;
+		padding:5px;		
+	}
+	.polinfdesc {
+		visibility: hidden;
+	}
+	.informat {
+		left: auto;
+	}
+	.rows {
+		width: 100%;
+	}
+	.polInformRow {
+		width: 120%;
+	}
+	.rows {
+		width: 90%;
+	}
+	.polInformRow {
+		width: 100%;
+		height: auto;
+		padding: 5px;
+	}
+	.polInformImg1, .polInformImg2, .polInformImg3, .polInformImg4, .polInformImg5, .polInformImg6 {
+		display: none;
+	}
+	.polInformRow p {
+		margin: auto;
+		line-height: 1.5;
+	}
+	.avto1, .avto2, .avto3 {
+		height: 189px;
+	}
+	.butAllNews {
+		margin: 20px 0 30px 5%;
+	}
+	.footCol11 {
+		margin-bottom: 20px;
+	}
+	.footCol12 {
+		margin-bottom: 20px;
+		float: none;
+	}
 }
+	
+@media ( max-width: 568px) {
+	.resultCol {
+		height: 385px;
+	}
+	.resultCol .buttonOrang {
+		margin-left: 27%;
+	}
+	.uslug {
+		height: auto;
+		margin-bottom: 10px;
+	}
+	.rows {
+		width: 135%;
+	}
+	.polinfdesc{
+		height: 345px;
+	}
+	.avto1, .avto2, .avto3 {
+		height: 400px;
+	}
+	.butAllNews {
+		margin: 20px 0 30px 30%;
+	}
+	.footCol11 {
+		margin-bottom: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media ( max-width: 415px) {
+	.avto1, .avto2, .avto3 {
+		height: 270px;
+	}
+}
+
+@media ( max-width: 376px) {
+	.avto1, .avto2, .avto3 {
+		height: 237px;
+	}
+	.rows {
+		width: 95%;
+	}
+	.polinfdesc {
+		height: 410px;
+	}
+	.resultCol .buttonOrang {
+		margin-left: 15%;
+	}
+	.butAllNews {
+		margin: 20px 0 30px 14%;
+	}
+}
+@media ( max-width: 321px) {
+	.avto1, .avto2, .avto3 {
+		height: 189px;
+	}
+	.polinfdesc {
+		height: 450px;
+	}
+	.butAllNews {
+		margin: 20px 0 30px 5%;
+	}
+	.resultCol {
+		height: 550px;
+	}
+	.resultCol .buttonOrang {
+		margin-left: 8%;
+	}
+}
+
 @media (min-width: 649px) and ( max-width: 767px) {
 	html {
     	height: auto;
