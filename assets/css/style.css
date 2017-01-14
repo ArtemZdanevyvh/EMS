@@ -5,9 +5,11 @@ Author URI: http://gorkovenko.net
 Version: 1.0
 */
 
+
 /* +++++++++++++++++++++++++++++++++++++++++++
   add fonts: 
 ++++++++++++++++++++++++++++++++++++++++++++*/
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&subset=latin,latin-ext);
 
 /* HELPER FOR ME AND OTHER HTML-coder
@@ -45,42 +47,65 @@ Version: 1.0
     filter: alpha(opacity=50);    
 */
 
-@-webkit-viewport   { width: device-width; }
-@-moz-viewport      { width: device-width; }
-@-ms-viewport       { width: device-width; }
-@-o-viewport        { width: device-width; }
-@viewport           { width: device-width; }
+@-webkit-viewport {
+	width: device-width;
+}
+
+@-moz-viewport {
+	width: device-width;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@-o-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
 
 /* +++++++++++++++++++++++++++++++++++++++++++
   default style
 ++++++++++++++++++++++++++++++++++++++++++++*/
+
 * {
 	outline: none !important;
 }
 
 html {
-    height: 100%;
-    font-size: 16px;
+	height: 100%;
+	font-size: 16px;
 }
-body, ul {
+
+body,
+ul {
 	padding: 0;
 	margin: 0;
 	color: #ffffff;
 }
+
 img {
 	max-width: 100%;
 }
+
+
 /* +++++++++++++++++++++++++++++++++++++++++++
   bootstrap style
 ++++++++++++++++++++++++++++++++++++++++++++*/
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+	-webkit-appearance: none;
 }
+
 input[type='number'] {
-    -moz-appearance: textfield;
+	-moz-appearance: textfield;
 }
+
 h1,
 h2,
 h3,
@@ -89,29 +114,35 @@ h5,
 h6 {
 	margin-top: 0px;
 }
+
 input[type="checkbox"] {
 	display: none;
 }
+
 input[type="checkbox"] + label {
 	cursor: pointer;
 	padding-left: 0;
 }
+
 input[type="checkbox"] + label span {
-	display:block;
-	width:19px;
-	height:19px;
-	margin:-1px 4px 0 0;
-	vertical-align:middle;
-	background:url(../../i/images/checkbox.png)left top no-repeat;
-	cursor:pointer;
+	display: block;
+	width: 19px;
+	height: 19px;
+	margin: -1px 4px 0 0;
+	vertical-align: middle;
+	background: url(../../i/images/checkbox.png)left top no-repeat;
+	cursor: pointer;
 	background-position: 0%;
 	background-size: cover;
 }
+
 input[type="checkbox"]:checked + label span {
-	background:url(../../i/images/checkbox.png) top no-repeat;
+	background: url(../../i/images/checkbox.png) top no-repeat;
 	background-position: 100%;
 	background-size: cover;
 }
+
+
 /*
 h1 {
 	font-size: 28px;
@@ -128,21 +159,25 @@ h5 {
 	font-size: 16px;
 }
 */
+
 label {
 	font-weight: 400;
 	text-transform: uppercase;
 }
+
 .form-control {
-    -webkit-border-radius: 0%;
-       -moz-border-radius: 0%;
-	   		border-radius: 0%;
-    -webkit-box-shadow: none;
-       -moz-box-shadow: none;
-	   		box-shadow: none;	   		
+	-webkit-border-radius: 0%;
+	-moz-border-radius: 0%;
+	border-radius: 0%;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
 }
+
 textarea.form-control {
 	min-height: 150px;
 }
+
 .buttonBlue {
 	width: 200px;
 	height: 45px;
@@ -153,9 +188,11 @@ textarea.form-control {
 	text-transform: uppercase;
 	border: none;
 }
+
 .buttonBlue:hover {
 	background-color: #235f8e;
 }
+
 .buttonOrang {
 	width: 200px;
 	height: 45px;
@@ -165,9 +202,11 @@ textarea.form-control {
 	border: none;
 	font-size: 18px;
 }
+
 .buttonOrang:hover {
 	background: #ff9c28;
 }
+
 .buttonNoBody {
 	width: 200px;
 	height: 45px;
@@ -176,17 +215,18 @@ textarea.form-control {
 	color: #fdac11;
 	background: transparent;
 }
+
 .buttonNoBody:hover {
 	border: 2px solid #ff9c28;
 	color: #ff9c28;
 }
-select {
 
+select {
 	/*for WebKit*/
 	-webkit-appearance: none;
 	/* for FF */
 	-moz-appearance: none;
-	text-indent: 0.01px; 
+	text-indent: 0.01px;
 	text-overflow: '';
 	/* for IE */
 	-ms-appearance: none;
@@ -197,19 +237,24 @@ select {
 	background-position: 97%;
 	background-size: 10px;
 }
+
+
 /* +++++++++++++++++++++++++++++++++++++++++++
   header style
 ++++++++++++++++++++++++++++++++++++++++++++*/
+
 .topLine {
 	background-color: #273a49;
 	height: auto;
 	color: #8b99a3;
 }
+
 .topLine h5 {
 	line-height: 40px;
 	text-align: center;
 	margin: 0;
 }
+
 .topLine ul li {
 	list-style: none;
 	display: inline;
@@ -217,16 +262,20 @@ select {
 	float: right;
 	margin-left: 20px;
 }
+
 .topLine ul li a {
 	text-decoration: none;
 	color: #8b99a3;
 }
+
 .topLine ul li a:hover {
 	color: #ffffff;
 }
+
 .head {
 	clear: left;
 }
+
 .headLogo {
 	background-image: url(../../i/images/logoEMS.png);
 	background-repeat: no-repeat;
@@ -235,11 +284,11 @@ select {
 	margin: 10px 0;
 	clear: left;
 }
+
 .headContact {
 	height: 45px;
 	background-color: #f2f8fd;
 	font-size: 16px;
-	
 	text-transform: uppercase;
 	margin: 22px 0 0 -80px;
 	padding: 10px 20px 10px 0;
@@ -248,19 +297,20 @@ select {
 	float: left;
 }
 
-.headContact ul li{
+.headContact ul li {
 	list-style: none;
 	display: inline;
 	margin-left: 20px;
 	color: #728aa0;
 }
-.headContact ul li:last-child {
 
-}
+.headContact ul li:last-child {}
+
 .headButt {
 	margin: 22px 4% 0;
 	float: left;
 }
+
 .headSeach {
 	width: 307px;
 	height: 45px;
@@ -268,87 +318,104 @@ select {
 	border: 1px solid #fdac11;
 	border-radius: 50px;
 	text-align: center;
-	text-transform:uppercase;
+	text-transform: uppercase;
 	color: #fdac11;
 	float: left;
 	padding: 10px 0 0;
 }
+
 .headSeach img {
 	margin: 0 15px;
 	float: left;
 }
+
 .headSeach i {
 	float: right;
 	margin: 0 15px;
 }
+
 .navbar {
 	margin: 0px;
 	border: none;
 	border-radius: 0;
 }
+
 .navbar-collapse {
 	padding: 0px;
 }
+
 .navbar-toggle .icon-bar {
 	background-color: #fdac11;
 }
+
 .mainMenu {
 	margin-top: 30px;
 	margin-left: -80px;
 }
+
 .mainMenu ul li {
 	list-style: none;
 	display: inline;
-	margin-left:  7.5%;
+	margin-left: 7.5%;
 }
+
 .mainMenu ul li:first-child {
 	margin-left: 20px;
 }
+
 .mainMenu ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #000000;
 }
+
 .mainMenu ul li a:hover {
 	color: #186aa9;
 	border-bottom: 2px #fdac11 solid;
 	padding-bottom: 13px;
 }
+
 .mashyny {
 	background-image: url(../../i/images/Mashyny_02.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 620px;
-
 }
+
 .slider div.row {
 	margin-left: 25px;
 }
+
 .slider hr {
 	width: 82%;
 	height: 3px;
 	background-color: #fdac11;
-	margin: 130px 0 16px 0;	
+	margin: 130px 0 16px 0;
 	border-style: none;
 }
+
 .slider h1 {
 	font-size: 40px;
 	text-transform: uppercase;
 	background-color: #186aa9;
 	color: #ffffff;
 }
+
 .slider h1:first-child {
 	width: 88%;
 	padding-left: 3px
 }
+
 .slider h1:last-child {
 	width: 54%;
 	padding-left: 3px
 }
 
+
 /* +++++++++++++++++++++++++++++++++++++++++++
   content style
 ++++++++++++++++++++++++++++++++++++++++++++*/
+
 .calculator {
 	background-color: #1d5988;
 	background-image: url(../../i/images/fonCalk_02.png);
@@ -356,25 +423,266 @@ select {
 	background-size: 114%;
 	background-position: center bottom;
 }
+
+.calculatorRSU {
+	background-color: #1d5988;
+	background-image: url(../../i/images/fonCalk_02.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 35px;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+content style расчет стоимости услуг спецсвязи 
+++++++++++++++++++++++++++++++++++++++++++++*/
+
+.calculatorRSU .breadcrumb {
+	background: none;
+}
+
+.calculatorRSU .breadcrumb > li a,
+.calculatorRSU .breadcrumb > li {
+	color: #9bc3e3;
+	text-decoration: none;
+}
+
+.calculatorRSU .breadcrumb > li a:hover {
+	color: #ffffff;
+}
+
+.calculatorRSU .breadcrumb > li + li::before {
+	content: ">\00a0";
+	padding: 0 5px;
+	color: #9bc3e3;
+}
+
+.colsRSU {
+	border: 1px solid #d6d6d6;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.otkudaColRSU {
+	clear: left;
+}
+
+.otkudaColRSU select,
+.otkudaColRSU input,
+.kudaColRSU select,
+.kudaColRSU input {
+	height: 42px;
+	border-radius: 3px;
+	color: #2c3741;
+	width: 100%;
+	border: 1px solid #d6d6d6;
+	margin: 0px 0 15px 0;
+}
+
+.otkudaColRSU p,
+.kudaColRSU label,
+.kudaColRSU p {
+	color: #486276;
+}
+
+.otkudaColRSU input {
+	margin-bottom: 65px;
+}
+
+.resultColRSU li {
+	color: #486276;
+}
+
+.resultColRSU, .dopRSU {
+	padding: 0;
+}
+
+.rowRSU {
+	border: 1px solid #d6d6d6;
+	display: flex;
+	width: 100%;
+}
+
+.resultColRSU div.col-lg-12 {
+	padding: 0;
+}
+
+.rowRSU li {
+	list-style: none;
+}
+
+.img1RSU,
+.img2RSU,
+.img3RSU {
+	background-image: url("../../i/images/sprite1RSU.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 10%;
+	height: 64px;
+	margin: 10px 15px;
+}
+
+.img2RSU {
+	background-position: 0 -73px;
+}
+
+.img3RSU {
+	background-position: 0 -146px;
+}
+
+.rpintRSU {
+	background-image: url("../../i/images/printRSU.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 10%;
+	height: 32px;
+	margin: 25px 0 0 11%;
+}
+
+.firstDivRSU,
+.secondDivRSU,
+.thidthDivRSU ul {
+	margin-top: 15px;
+}
+
+.firstDivRSU {
+	width: 40%;
+}
+
+.secondDivRSU {
+	width: 25%;
+}
+
+.thidthDivRSU {
+	background-color: #1d5988;
+	width: 22%;
+	text-align: center;
+}
+
+.thidthDivRSU li {
+	color: #ffffff;
+}
+
+.dopUsligiRSU h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #2c475b;
+}
+
+.table1 {
+	width: 100%;
+	color: #000000;
+}
+
+.dopUsligiRSU table tr:first-child {
+	background-color: #1d5988;
+	color: #ffffff;
+}
+.dopUsligiRSU table tr td p {
+	overflow: auto;
+}
+.dopUsligiRSU table tr td:first-child {
+	padding: 10px;
+	width: 60%;
+}
+
+.dopUsligiRSU table tr td:nth-child(2) {
+	width: 25%;
+}
+
+.dopUsligiRSU table tr td:nth-child(3) {
+	width: 15%;
+	padding: 10px;
+}
+
+.infoRSU {
+	width: 30px;
+	float: left;
+	height: 25px;
+}
+
+.chevkRSU {
+	float: left;
+	padding: 10px 10px;
+}
+
+.chevkRSU input[type="checkbox"] + label span {
+
+	width: 21px;
+	height: 19px;
+	margin: 0px 5px 0 0;
+	background-position: -1%;
+}
+
+.chevkRSU input[type="checkbox"]:checked + label span {
+	background-position: 107%;
+}
+
+.icon-info-button {
+	padding: 3px 10px 0 0px;
+	float: left;
+	color: #186aa9;
+	font-size: 19px;
+}
+span.icon-info-button:hover {
+	color: #fdac11;
+	cursor: pointer;
+}
+.table1 {
+	border: 1px solid #d6d6d6;
+	margin-bottom: 100px;
+}
+
+.polInformRowRSU p {
+	color: #2c475b
+}
+.sideBar h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #2c475b
+}
+
+
+
+
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+content style расчет стоимости услуг спецсвязи  END
+++++++++++++++++++++++++++++++++++++++++++++*/
+
 .stoimost {}
-.stoimost hr, .uslugiName hr, .polInformName hr, .newsRow hr {
+
+.stoimost hr,
+.uslugiName hr,
+.polInformName hr,
+.newsRow hr {
 	width: 95px;
 	height: 3px;
 	background-color: #fdac11;
 	margin: 40px 0 16px 0;
 	border-style: none;
 }
-.stoimost h3, .uslugiName h3, .polInformName h3, .newsRow h3 {
+
+.stoimost h3,
+.uslugiName h3,
+.polInformName h3,
+.newsRow h3 {
 	font-size: 24px;
 	text-transform: uppercase;
 	color: #ffffff;
 	font-weight: 800;
 }
+
 .switch {
 	height: 40px;
 	clear: left;
 	margin: 30px 0;
 }
+
 .switch1 {
 	width: 35%;
 	height: 40px;
@@ -385,6 +693,7 @@ select {
 	text-align: center;
 	padding: 10px 0 0 5px;
 }
+
 .switch2 {
 	width: 65%;
 	height: 40px;
@@ -395,10 +704,14 @@ select {
 	text-align: center;
 	padding: 10px 5px 0 0;
 }
+
 .otkudaCol {
 	clear: left;
 }
-.otkudaCol select, input, .kudaCol select {
+
+.otkudaCol select,
+input,
+.kudaCol select {
 	height: 42px;
 	border-radius: 3px;
 	color: #2c3741;
@@ -407,17 +720,23 @@ select {
 	margin: 0px 0 15px 0;
 }
 
-.otkudaCol p, .kudaCol label, .kudaCol p {
+.otkudaCol p,
+.kudaCol label,
+.kudaCol p {
 	color: #ffffff;
 }
+
 .otkudaCol input {
 	margin-bottom: 65px;
 }
 
-
-.classDostavky p, .ves p, .cennost p, .nds  {
+.classDostavky p,
+.ves p,
+.cennost p,
+.nds {
 	margin-top: 15px;
 }
+
 .resultCol {
 	height: 405px;
 	background-color: #316997;
@@ -425,17 +744,22 @@ select {
 	left: 10%;
 	position: relative;
 }
-.col1, .col2 {
+
+.col1,
+.col2 {
 	float: left;
 	margin: 20px 5px 0px 5px;
 	width: 200px;
 	padding: 0 14px;
 }
 
-.col1 ul li, .col2 ul li {
+.col1 ul li,
+.col2 ul li {
 	list-style: none;
 }
-.col1_ing, .col2_ing {
+
+.col1_ing,
+.col2_ing {
 	background-image: url("../../i/images/sprait1.png");
 	background-repeat: no-repeat;
 	background-position: 0px;
@@ -444,27 +768,36 @@ select {
 	height: 72px;
 	margin-bottom: 20px;
 }
+
 .col2_ing {
 	background-position: -110px;
 }
+
 .resultCol .buttonOrang {
 	float: left;
 	margin-top: 40px;
 	margin-left: 25%;
 	margin-bottom: 30px;
 }
+
 .mar20 {
 	margin: 20px 0;
 }
+
 .rez {
 	font-size: 21px;
 }
+
 .uslugiName {}
 
 .uslugiName h3 {
 	color: #2c3741;
 }
-.topImg1, .topImg2, .topImg3, .topImg4 {
+
+.topImg1,
+.topImg2,
+.topImg3,
+.topImg4 {
 	background-image: url("../../i/images/sprait2.png");
 	background-repeat: no-repeat;
 	background-position: 0px;
@@ -473,16 +806,19 @@ select {
 	height: 72px;
 	margin: 0 auto 50px;
 }
+
 .descript {
 	border-bottom: 3px solid #fdac11;
 	padding-bottom: 25px;
 	margin-bottom: 25px;
 	height: 75px;
-	
 }
+
 .descript:hover {
-	border-bottom: 3px solid #1d5988;;
+	border-bottom: 3px solid #1d5988;
+	;
 }
+
 .uslug {
 	width: 275px;
 	height: 415px;
@@ -490,47 +826,58 @@ select {
 	padding: 30px 15px 20px;
 	margin-bottom: 115px;
 }
+
 .uslug:hover {
 	border: 3px solid #fdac11;
 	cursor: pointer;
 }
+
 .uslug .descript p {
 	text-transform: uppercase;
 	color: #2c3741;
 	font-weight: 700;
 }
+
 .uslug .descript p:hover {
 	color: #1d5988;
 	cursor: pointer;
 	font-weight: 700;
 }
+
 .uslug p {
 	color: #868686;
 	font-size: 15px;
 }
+
 .topImg2 {
 	background-image: url("../../i/images/sprait2.png");
 	background-position: -100px;
 }
+
 .topImg3 {
 	background-image: url("../../i/images/sprait2.png");
 	background-position: -200px;
 }
+
 .topImg4 {
 	background-image: url("../../i/images/sprait2.png");
 	background-position: -300px;
 }
+
 .rows {
 	clear: left;
 	padding-right: 0;
 	width: 580px;
 }
+
 .polInformName h3 {
 	color: #ffffff;
 }
+
 .polInform {
 	background-color: #2c475b;
 }
+
 .polInformRow {
 	height: 58px;
 	background-color: #3b576c;
@@ -538,15 +885,23 @@ select {
 	padding-left: 15px;
 	cursor: pointer;
 }
+
 .polInformRow:hover {
 	background-color: #fdac11;
 	color: #2c475b;
 }
+
 .polInformRow p {
 	line-height: 4;
 	margin-left: 70px;
 }
-.polInformImg1, .polInformImg2, .polInformImg3, .polInformImg4, .polInformImg5, .polInformImg6 {
+
+.polInformImg1,
+.polInformImg2,
+.polInformImg3,
+.polInformImg4,
+.polInformImg5,
+.polInformImg6 {
 	background-image: url(../../i/images/sprait3.png);
 	background-repeat: no-repeat;
 	background-position: 0px 10px;
@@ -554,18 +909,23 @@ select {
 	height: 50px;
 	float: left;
 }
+
 .polInformImg2 {
 	background-position: -80px 5px;
 }
+
 .polInformImg3 {
 	background-position: -145px 4px;
 }
+
 .polInformImg4 {
 	background-position: -223px 4px;
 }
+
 .polInformImg5 {
 	background-position: -303px 4px;
 }
+
 .polInformImg6 {
 	background-position: -380px 3px;
 }
@@ -573,21 +933,27 @@ select {
 .polInformImg1:hover {
 	background-position: 0px -63px;
 }
+
 .polInformImg2:hover {
 	background-position: -80px -68px;
 }
+
 .polInformImg3:hover {
 	background-position: -145px -64px;
 }
+
 .polInformImg4:hover {
 	background-position: -223px -70px;
 }
+
 .polInformImg5:hover {
 	background-position: -303px -68px;
 }
+
 .polInformImg6:hover {
 	background-position: -380px -68px;
 }
+
 .polinfdesc {
 	background-image: url(../../i/images/air.png);
 	background-repeat: no-repeat;
@@ -596,9 +962,11 @@ select {
 	padding-left: 0;
 	background-position: 30%;
 }
+
 .polInformRow:last-child {
 	margin-bottom: 65px;
 }
+
 .informat {
 	position: absolute;
 	left: 27.8%;
@@ -607,25 +975,33 @@ select {
 .newsRow h3 {
 	color: #2c3741;
 }
+
 .news .row {
 	margin-left: 0;
 }
+
 .avto1 {
 	clear: left;
 }
-.avto1, .avto2, .avto3  {
+
+.avto1,
+.avto2,
+.avto3 {
 	background-image: url(../../i/images/avto_06.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 296px;
 	border: 3px solid;
 }
+
 .avto2 {
 	background-image: url(../../i/images/avto_03.png);
 }
+
 .avto3 {
 	background-image: url(../../i/images/avto_09.png);
 }
+
 .avtoHov {
 	background-color: #1664a0;
 	width: 100%;
@@ -635,118 +1011,154 @@ select {
 	opacity: 0.8;
 	z-index: 15;
 	-webkit-transition: 0.3s Ease;
-	-moz-transition: 0.3s Ease; 
+	-moz-transition: 0.3s Ease;
 	-o-transition: 0.3s Ease;
 	transition: 0.3s Ease;
 	cursor: pointer;
 }
 
-
 .avto1:hover .avtoHov {
 	border: 3px solid #fdac11;
 	opacity: 0.4;
-	}
+}
+
 .avto2:hover .avtoHov {
 	border: 3px solid #fdac11;
 	opacity: 0.4;
 }
+
 .avto3:hover .avtoHov {
 	border: 3px solid #fdac11;
 	opacity: 0.4;
 }
+
 .butAllNews {
 	margin: 30px 0 70px 41%;
 }
 
+
 /* +++++++++++++++++++++++++++++++++++++++++++
    footer style
 ++++++++++++++++++++++++++++++++++++++++++++*/
+
 .footer {
 	background-color: #2d3a44;
 }
+
 #imaginary_container {
 	margin-top: 30px;
 	margin-bottom: 60px;
 }
-.stylish-input-group .input-group-addon, .input-group.stylish-input-group input {
+
+.stylish-input-group .input-group-addon,
+.input-group.stylish-input-group input {
 	background-color: #3b4751;
 	border: none;
 	border-radius: 2px;
 	color: #8997a1;
 }
+
 .input-group.stylish-input-group .form-control:focus {
 	box-shadow: none !important;
 }
-.stylish-input-group button{
-	border:0;
-	background:transparent;
+
+.stylish-input-group button {
+	border: 0;
+	background: transparent;
 }
+
 .glyphicon-search {
 	font-size: 20px;
 	color: #ffffff;
 	cursor: pointer;
 }
+
 .glyphicon-search:hover {
 	color: #fdac11;
 }
+
 .footCol11 ul li {
 	line-height: 30px;
 }
+
 .footCol11 ul li i {
 	font-size: 20px;
 	margin-right: 10px;
 }
+
 .footCol11 {
 	float: left;
 	margin-bottom: 50px;
 }
+
 .footCol12 {
 	float: right;
 }
-.footCol21 ul li, .footCol22 ul li, .footCol5 ul li {
+
+.footCol21 ul li,
+.footCol22 ul li,
+.footCol5 ul li {
 	line-height: 25px;
 }
-.footCol21 ul a, .footCol22 ul a {
+
+.footCol21 ul a,
+.footCol22 ul a {
 	color: #ffffff;
 	text-decoration: none;
 }
+
 .footCol21 ul a:hover {
 	color: #fdac11;
 	cursor: pointer;
 }
+
 .footCol22 ul a:hover {
 	color: #fdac11;
 	cursor: pointer;
 }
-.footCol11 ul li, .footCol12 ul li, .footCol21 ul li, .footCol22 ul li, .footCol5 ul li {
+
+.footCol11 ul li,
+.footCol12 ul li,
+.footCol21 ul li,
+.footCol22 ul li,
+.footCol5 ul li {
 	list-style: none;
 }
+
 .footCol21 {
 	float: left;
 }
+
 .footCol22 {
 	float: right;
 }
+
 .footCol5 {
 	margin-top: 36px;
 }
+
 .liMar {
 	margin-top: 10px;
 }
+
 .arrTop {
 	position: absolute;
 	z-index: 100;
 	top: 5px;
 	left: 110%;
 }
+
 .arrTop span {
 	font-size: 25px;
 	color: #ffffff;
 	cursor: pointer;
 }
+
 .arrTop span:hover {
 	color: #fdac11;
 }
+
+
 /* +++++++++++++++++++++++++++++++++++++++++++
    plugins style
 ++++++++++++++++++++++++++++++++++++++++++++*/
