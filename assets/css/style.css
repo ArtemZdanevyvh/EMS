@@ -537,8 +537,11 @@ content style расчет стоимости услуг спецсвязи
 	width: 10%;
 	height: 32px;
 	margin: 25px 0 0 11%;
+	cursor: pointer;
 }
-
+.rpintRSU:hover {
+	background-image: url("../../i/images/printHoverRSU.png");
+}
 .firstDivRSU,
 .secondDivRSU,
 .thidthDivRSU ul {
@@ -554,7 +557,7 @@ content style расчет стоимости услуг спецсвязи
 }
 
 .thidthDivRSU {
-	background-color: #1d5988;
+	background-color: #186aa9;;
 	width: 22%;
 	text-align: center;
 }
@@ -568,6 +571,7 @@ content style расчет стоимости услуг спецсвязи
 	text-transform: uppercase;
 	font-weight: 800;
 	color: #2c475b;
+	margin-top: 50px;
 }
 
 .table1 {
@@ -576,7 +580,7 @@ content style расчет стоимости услуг спецсвязи
 }
 
 .dopUsligiRSU table tr:first-child {
-	background-color: #1d5988;
+	background-color: #186aa9;;
 	color: #ffffff;
 }
 .dopUsligiRSU table tr td p {
@@ -634,18 +638,128 @@ span.icon-info-button:hover {
 	margin-bottom: 100px;
 }
 
-.polInformRowRSU p {
-	color: #2c475b
+
+.sideBar hr {
+	width: 40%;
+	height: 2px;
+	background-color: #fdac11;
+	margin: 40px 0 16px 0;
+	border-style: none;
 }
-.sideBar h3 {
-	font-size: 18px;
+.sideBarName {
+	height: 50px;
+	background-color: #186aa9;
+	color: #ffffff;
+	margin-top: 15px;
+}
+.sideCalc {
+	background-image: url(../../i/images/stoimostRSU.png);
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	width: 26px;
+	height: 40px;
+	float: left;
+	margin: 0 10px;
+}
+.sideBar h3, .sideBarName h3 {
+	font-size: 20px;
 	text-transform: uppercase;
+	color: #2c475b;
+}
+.sideBarName h3 {
+	color: #ffffff;
+	font-size: 16px;
+	padding: 15px 0;
+}
+.polInformRow p {
+	line-height: 4;
+	margin-left: 70px;
+}
+.polInformRowRSU {
+	height: 45px;
+	margin-top: 25px;
 	color: #2c475b
 }
+.polInformRowRSU:hover {
+	background-color: #fdac11;
+	cursor: pointer;
+	color: #ffffff;
+}
+.polInformImg1RSU,
+.polInformImg2RSU,
+.polInformImg3RSU,
+.polInformImg4RSU,
+.polInformImg5RSU,
+.polInformImg6RSU {
+	background-image: url(../../i/images/sprait3.png);
+	background-repeat: no-repeat;
+	background-position: 0px -55px;
+	width: 52px;
+	height: 40px;
+	float: left;
+	background-size: 686%;
+}
 
+.polInformImg2RSU {
+	background-position:-69px -58px;
+}
 
+.polInformImg3RSU {
+	background-position: -122px -55px;
+}
 
+.polInformImg4RSU {
+	background-position:-186px -59px;
+}
 
+.polInformImg5RSU {
+	background-position:-252px -58px;
+}
+
+.polInformImg6RSU {
+	background-position:-315px -58px;
+}
+/*
+
+.polInformImg1RSU:hover {
+	background-position: 0px 10px;
+}
+
+.polInformImg2RSU:hover {
+	background-position:  -80px 5px;
+}
+
+.polInformImg3RSU:hover {
+	background-position:  -145px 4px;
+}
+
+.polInformImg4RSU:hover {
+	background-position:  -223px 4px;
+}
+
+.polInformImg5RSU:hover {
+	background-position:  -303px 4px;
+}
+
+.polInformImg6RSU:hover {
+	background-position:  -380px 3px;
+}
+*/
+
+.gerb {
+	background-image: url(../../i/images/gerb.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 140px;
+	margin: 65px 20%;
+}
+.hotLine {
+	background-image: url(../../i/images/garLine.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height:70px;
+	margin: 0 8%;
+}
 
 
 
