@@ -388,7 +388,7 @@ select {
 
 .slider hr {
 	width: 82%;
-	height: 3px;
+	height: 2px;
 	background-color: #fdac11;
 	margin: 130px 0 16px 0;
 	border-style: none;
@@ -432,342 +432,6 @@ select {
 	padding: 35px;
 }
 
-
-/* +++++++++++++++++++++++++++++++++++++++++++
-content style расчет стоимости услуг спецсвязи 
-++++++++++++++++++++++++++++++++++++++++++++*/
-
-.calculatorRSU .breadcrumb {
-	background: none;
-}
-
-.calculatorRSU .breadcrumb > li a,
-.calculatorRSU .breadcrumb > li {
-	color: #9bc3e3;
-	text-decoration: none;
-}
-
-.calculatorRSU .breadcrumb > li a:hover {
-	color: #ffffff;
-}
-
-.calculatorRSU .breadcrumb > li + li::before {
-	content: ">\00a0";
-	padding: 0 5px;
-	color: #9bc3e3;
-}
-
-.colsRSU {
-	border: 1px solid #d6d6d6;
-	padding: 20px;
-	margin-top: 20px;
-}
-
-.otkudaColRSU {
-	clear: left;
-}
-
-.otkudaColRSU select,
-.otkudaColRSU input,
-.kudaColRSU select,
-.kudaColRSU input {
-	height: 42px;
-	border-radius: 3px;
-	color: #2c3741;
-	width: 100%;
-	border: 1px solid #d6d6d6;
-	margin: 0px 0 15px 0;
-}
-
-.otkudaColRSU p,
-.kudaColRSU label,
-.kudaColRSU p {
-	color: #486276;
-}
-
-.otkudaColRSU input {
-	margin-bottom: 65px;
-}
-
-.resultColRSU li {
-	color: #486276;
-}
-
-.resultColRSU, .dopRSU {
-	padding: 0;
-}
-
-.rowRSU {
-	border: 1px solid #d6d6d6;
-	display: flex;
-	width: 100%;
-}
-
-.resultColRSU div.col-lg-12 {
-	padding: 0;
-}
-
-.rowRSU li {
-	list-style: none;
-}
-
-.img1RSU,
-.img2RSU,
-.img3RSU {
-	background-image: url("../../i/images/sprite1RSU.png");
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	width: 10%;
-	height: 64px;
-	margin: 10px 15px;
-}
-
-.img2RSU {
-	background-position: 0 -73px;
-}
-
-.img3RSU {
-	background-position: 0 -146px;
-}
-
-.rpintRSU {
-	background-image: url("../../i/images/printRSU.png");
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	width: 10%;
-	height: 32px;
-	margin: 25px 0 0 11%;
-	cursor: pointer;
-}
-.rpintRSU:hover {
-	background-image: url("../../i/images/printHoverRSU.png");
-}
-.firstDivRSU,
-.secondDivRSU,
-.thidthDivRSU ul {
-	margin-top: 15px;
-}
-
-.firstDivRSU {
-	width: 40%;
-}
-
-.secondDivRSU {
-	width: 25%;
-}
-
-.thidthDivRSU {
-	background-color: #186aa9;;
-	width: 22%;
-	text-align: center;
-}
-
-.thidthDivRSU li {
-	color: #ffffff;
-}
-
-.dopUsligiRSU h3 {
-	font-size: 24px;
-	text-transform: uppercase;
-	font-weight: 800;
-	color: #2c475b;
-	margin-top: 50px;
-}
-
-.table1 {
-	width: 100%;
-	color: #000000;
-}
-
-.dopUsligiRSU table tr:first-child {
-	background-color: #186aa9;;
-	color: #ffffff;
-}
-.dopUsligiRSU table tr td p {
-	overflow: auto;
-}
-.dopUsligiRSU table tr td:first-child {
-	padding: 10px;
-	width: 60%;
-}
-
-.dopUsligiRSU table tr td:nth-child(2) {
-	width: 25%;
-}
-
-.dopUsligiRSU table tr td:nth-child(3) {
-	width: 15%;
-	padding: 10px;
-}
-
-.infoRSU {
-	width: 30px;
-	float: left;
-	height: 25px;
-}
-
-.chevkRSU {
-	float: left;
-	padding: 10px 10px;
-}
-
-.chevkRSU input[type="checkbox"] + label span {
-
-	width: 21px;
-	height: 19px;
-	margin: 0px 5px 0 0;
-	background-position: -1%;
-}
-
-.chevkRSU input[type="checkbox"]:checked + label span {
-	background-position: 107%;
-}
-
-.icon-info-button {
-	padding: 3px 10px 0 0px;
-	float: left;
-	color: #186aa9;
-	font-size: 19px;
-}
-span.icon-info-button:hover {
-	color: #fdac11;
-	cursor: pointer;
-}
-.table1 {
-	border: 1px solid #d6d6d6;
-	margin-bottom: 100px;
-}
-
-
-.sideBar hr {
-	width: 40%;
-	height: 2px;
-	background-color: #fdac11;
-	margin: 40px 0 16px 0;
-	border-style: none;
-}
-.sideBarName {
-	height: 50px;
-	background-color: #186aa9;
-	color: #ffffff;
-	margin-top: 15px;
-}
-.sideCalc {
-	background-image: url(../../i/images/stoimostRSU.png);
-	background-repeat: no-repeat;
-	background-position: 0px 7px;
-	width: 26px;
-	height: 40px;
-	float: left;
-	margin: 0 10px;
-}
-.sideBar h3, .sideBarName h3 {
-	font-size: 20px;
-	text-transform: uppercase;
-	color: #2c475b;
-}
-.sideBarName h3 {
-	color: #ffffff;
-	font-size: 16px;
-	padding: 15px 0;
-}
-.polInformRow p {
-	line-height: 4;
-	margin-left: 70px;
-}
-.polInformRowRSU {
-	height: 45px;
-	margin-top: 25px;
-	color: #2c475b
-}
-.polInformRowRSU:hover {
-	background-color: #fdac11;
-	cursor: pointer;
-	color: #ffffff;
-}
-.polInformImg1RSU,
-.polInformImg2RSU,
-.polInformImg3RSU,
-.polInformImg4RSU,
-.polInformImg5RSU,
-.polInformImg6RSU {
-	background-image: url(../../i/images/sprait3.png);
-	background-repeat: no-repeat;
-	background-position: 0px -55px;
-	width: 52px;
-	height: 40px;
-	float: left;
-	background-size: 686%;
-}
-
-.polInformImg2RSU {
-	background-position:-69px -58px;
-}
-
-.polInformImg3RSU {
-	background-position: -122px -55px;
-}
-
-.polInformImg4RSU {
-	background-position:-186px -59px;
-}
-
-.polInformImg5RSU {
-	background-position:-252px -58px;
-}
-
-.polInformImg6RSU {
-	background-position:-315px -58px;
-}
-/*
-
-.polInformImg1RSU:hover {
-	background-position: 0px 10px;
-}
-
-.polInformImg2RSU:hover {
-	background-position:  -80px 5px;
-}
-
-.polInformImg3RSU:hover {
-	background-position:  -145px 4px;
-}
-
-.polInformImg4RSU:hover {
-	background-position:  -223px 4px;
-}
-
-.polInformImg5RSU:hover {
-	background-position:  -303px 4px;
-}
-
-.polInformImg6RSU:hover {
-	background-position:  -380px 3px;
-}
-*/
-
-.gerb {
-	background-image: url(../../i/images/gerb.png);
-	background-repeat: no-repeat;
-	background-position: 0px 0px;
-	height: 140px;
-	margin: 65px 20%;
-}
-.hotLine {
-	background-image: url(../../i/images/garLine.png);
-	background-repeat: no-repeat;
-	background-position: 0px 0px;
-	height:70px;
-	margin: 0 8%;
-}
-
-
-
-
-/* +++++++++++++++++++++++++++++++++++++++++++
-content style расчет стоимости услуг спецсвязи  END
-++++++++++++++++++++++++++++++++++++++++++++*/
-
 .stoimost {}
 
 .stoimost hr,
@@ -775,7 +439,7 @@ content style расчет стоимости услуг спецсвязи  END
 .polInformName hr,
 .newsRow hr {
 	width: 95px;
-	height: 3px;
+	height: 2px;
 	background-color: #fdac11;
 	margin: 40px 0 16px 0;
 	border-style: none;
@@ -922,27 +586,27 @@ input,
 }
 
 .descript {
-	border-bottom: 3px solid #fdac11;
+	border-bottom: 2px solid #fdac11;
 	padding-bottom: 25px;
 	margin-bottom: 25px;
 	height: 75px;
 }
 
 .descript:hover {
-	border-bottom: 3px solid #1d5988;
+	border-bottom: 2px solid #1d5988;
 	;
 }
 
 .uslug {
 	width: 275px;
 	height: 415px;
-	border: 3px solid #ffffff;
+	border: 2px solid #ffffff;
 	padding: 30px 15px 20px;
 	margin-bottom: 115px;
 }
 
 .uslug:hover {
-	border: 3px solid #fdac11;
+	border: 2px solid #fdac11;
 	cursor: pointer;
 }
 
@@ -1271,6 +935,439 @@ input,
 .arrTop span:hover {
 	color: #fdac11;
 }
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+content style расчет стоимости услуг спецсвязи 
+++++++++++++++++++++++++++++++++++++++++++++*/
+
+.calculatorRSU .breadcrumb {
+	background: none;
+}
+
+.calculatorRSU .breadcrumb > li a,
+.calculatorRSU .breadcrumb > li {
+	color: #9bc3e3;
+	text-decoration: none;
+}
+
+.calculatorRSU .breadcrumb > li a:hover {
+	color: #ffffff;
+}
+
+.calculatorRSU .breadcrumb > li + li::before {
+	content: ">\00a0";
+	padding: 0 5px;
+	color: #9bc3e3;
+}
+
+.colsRSU {
+	border: 1px solid #d6d6d6;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.otkudaColRSU {
+	clear: left;
+}
+
+.otkudaColRSU select,
+.otkudaColRSU input,
+.kudaColRSU select,
+.kudaColRSU input {
+	height: 42px;
+	border-radius: 3px;
+	color: #2c3741;
+	width: 100%;
+	border: 1px solid #d6d6d6;
+	margin: 0px 0 15px 0;
+}
+
+.otkudaColRSU p,
+.kudaColRSU label,
+.kudaColRSU p {
+	color: #486276;
+}
+
+.otkudaColRSU input {
+	margin-bottom: 65px;
+}
+
+.resultColRSU li {
+	color: #486276;
+}
+
+.resultColRSU,
+.dopRSU {
+	padding: 0;
+}
+
+.rowRSU {
+	border: 1px solid #d6d6d6;
+	display: flex;
+	width: 100%;
+}
+
+.resultColRSU div.col-lg-12 {
+	padding: 0;
+}
+
+.rowRSU li {
+	list-style: none;
+}
+
+.img1RSU,
+.img2RSU,
+.img3RSU {
+	background-image: url("../../i/images/sprite1RSU.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 10%;
+	height: 64px;
+	margin: 10px 15px;
+}
+
+.img2RSU {
+	background-position: 0 -73px;
+}
+
+.img3RSU {
+	background-position: 0 -146px;
+}
+
+.rpintRSU {
+	background-image: url("../../i/images/printRSU.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 10%;
+	height: 32px;
+	margin: 25px 0 0 11%;
+	cursor: pointer;
+}
+
+.rpintRSU:hover {
+	background-image: url("../../i/images/printHoverRSU.png");
+}
+
+.firstDivRSU,
+.secondDivRSU,
+.thidthDivRSU ul {
+	margin-top: 15px;
+}
+
+.firstDivRSU {
+	width: 40%;
+}
+
+.secondDivRSU {
+	width: 25%;
+}
+
+.thidthDivRSU {
+	background-color: #186aa9;
+	;
+	width: 22%;
+	text-align: center;
+}
+
+.thidthDivRSU li {
+	color: #ffffff;
+}
+
+.dopUsligiRSU h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #2c475b;
+	margin-top: 50px;
+}
+
+.table1 {
+	width: 100%;
+	color: #000000;
+}
+
+.dopUsligiRSU table tr:first-child {
+	background-color: #186aa9;
+	;
+	color: #ffffff;
+}
+
+.dopUsligiRSU table tr td p {
+	overflow: auto;
+}
+
+.dopUsligiRSU table tr td:first-child {
+	padding: 10px;
+	width: 60%;
+}
+
+.dopUsligiRSU table tr td:nth-child(2) {
+	width: 25%;
+}
+
+.dopUsligiRSU table tr td:nth-child(3) {
+	width: 15%;
+	padding: 10px;
+}
+
+.infoRSU {
+	width: 30px;
+	float: left;
+	height: 25px;
+}
+
+.chevkRSU {
+	float: left;
+	padding: 10px 10px;
+}
+
+.chevkRSU input[type="checkbox"] + label span {
+	width: 21px;
+	height: 19px;
+	margin: 0px 5px 0 0;
+	background-position: -1%;
+}
+
+.chevkRSU input[type="checkbox"]:checked + label span {
+	background-position: 107%;
+}
+
+.icon-info-button {
+	padding: 3px 10px 0 0px;
+	float: left;
+	color: #186aa9;
+	font-size: 19px;
+}
+
+span.icon-info-button:hover {
+	color: #fdac11;
+	cursor: pointer;
+}
+
+.table1 {
+	border: 1px solid #d6d6d6;
+	margin-bottom: 100px;
+}
+
+.sideBar hr {
+	width: 40%;
+	height: 2px;
+	background-color: #fdac11;
+	margin: 40px 0 16px 0;
+	border-style: none;
+}
+
+.sideBarName {
+	height: 50px;
+	background-color: #186aa9;
+	color: #ffffff;
+	margin-top: 15px;
+}
+
+.sideCalc {
+	background-image: url(../../i/images/stoimostRSU.png);
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	width: 26px;
+	height: 40px;
+	float: left;
+	margin: 0 10px;
+}
+
+.sideBar h3,
+.sideBarName h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #2c475b;
+}
+
+.sideBarName h3 {
+	color: #ffffff;
+	font-size: 16px;
+	padding: 15px 0;
+}
+
+.polInformRowRSU p {
+	overflow: auto;
+}
+
+.polInformRowRSU {
+	height: 60px;
+	margin-top: 25px;
+	color: #2c475b;
+	padding: 0 5px;
+}
+
+.polInformRowRSU:hover {
+	background-color: #fdac11;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.polInformImg1RSU,
+.polInformImg2RSU,
+.polInformImg3RSU,
+.polInformImg4RSU,
+.polInformImg5RSU,
+.polInformImg6RSU {
+	background-image: url(../../i/images/sprait3.png);
+	background-repeat: no-repeat;
+	background-position: 0px -55px;
+	width: 52px;
+	height: 40px;
+	float: left;
+	background-size: 686%;
+}
+
+.polInformImg2RSU {
+	background-position: -69px -58px;
+}
+
+.polInformImg3RSU {
+	background-position: -122px -55px;
+}
+
+.polInformImg4RSU {
+	background-position: -186px -59px;
+}
+
+.polInformImg5RSU {
+	background-position: -252px -58px;
+}
+
+.polInformImg6RSU {
+	background-position: -315px -58px;
+}
+
+
+/*
+
+.polInformImg1RSU:hover {
+background-position: 0px 10px;
+}
+
+.polInformImg2RSU:hover {
+background-position:  -80px 5px;
+}
+
+.polInformImg3RSU:hover {
+background-position:  -145px 4px;
+}
+
+.polInformImg4RSU:hover {
+background-position:  -223px 4px;
+}
+
+.polInformImg5RSU:hover {
+background-position:  -303px 4px;
+}
+
+.polInformImg6RSU:hover {
+background-position:  -380px 3px;
+}
+*/
+
+.gerb {
+	background-image: url(../../i/images/gerb.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 140px;
+	margin: 65px 20%;
+}
+
+.hotLine {
+	background-image: url(../../i/images/garLine.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 70px;
+	margin: 0 8%;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+content style расчет стоимости услуг спецсвязи  END
+++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+content style Услуги
+++++++++++++++++++++++++++++++++++++++++++++*/
+
+.uslugBox {
+	height: auto;
+	border: 2px solid #ffffff;
+	padding: 35px 10px 10px 10px;
+	margin-top: 35px;
+}
+
+.uslugBox:hover {
+	border: 2px solid #fdac11;
+	cursor: pointer;
+}
+
+.uslugImg1,
+.uslugImg2,
+.uslugImg3,
+.uslugImg4 {
+	background-image: url("../../i/images/sprait2.png");
+	background-repeat: no-repeat;
+	background-position: 0px;
+	background-size: cover;
+	width: 75px;
+	height: 72px;
+	margin: 0 auto 50px;
+}
+
+.uslugImg2 {
+	background-position: -100px;
+}
+
+.uslugImg3 {
+	background-position: -200px;
+}
+
+.uslugImg4 {
+	background-position: -300px;
+}
+
+
+/*
+.uslugBox hr {
+	height: 2px;
+	background-color: #fdac11;
+	margin: 40px 0 16px 0;
+	border-style: none;
+}
+*/
+
+.descriptUslug {
+	border-top: 2px solid #fdac11;
+	padding-top: 25px;
+	margin-top: 25px;
+}
+
+.uslugBox h3 {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: 800;
+	text-align: center;
+}
+
+.uslugBox p,
+.lastUslugText {
+	color: #000000;
+}
+
+.lastUslugText {
+	margin-top: 65px;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+content style Услуги END
+++++++++++++++++++++++++++++++++++++++++++++*/
 
 
 /* +++++++++++++++++++++++++++++++++++++++++++

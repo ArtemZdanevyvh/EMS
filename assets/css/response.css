@@ -114,6 +114,27 @@
 		margin-bottom: 20px;
 		float: none;
 	}
+	
+	
+	
+	.calculatorRSU {
+		background-image: none;
+	}
+	.img1RSU, .img2RSU, .img3RSU {
+		display: none;
+	}
+	.firstDivRSU {
+		width: 40%;
+	}
+	.secondDivRSU {
+		width: 35%;
+	}
+	.thidthDivRSU {
+		width: 25%;
+	}
+	.rpintRSU {
+		width: 14%;
+	}
 }
 	
 @media ( max-width: 568px) {
@@ -373,6 +394,39 @@
 	.container-fluid {
 		padding-left: 5px;
 	}
+	
+	
+	.img1RSU, .img2RSU, .img3RSU {
+		width: 15%
+	}
+	.firstDivRSU {
+		width: 35%;
+	}
+	.sideBarName, .polInformRowRSU {
+		height: 60px;
+	}
+	.polInformRowRSU p {
+		overflow: auto;
+	}
+	.sideCalc {
+		height: 58px;
+		background-position: 0px 15px;
+	}
+	.gerb {
+		margin: 65px 10%;
+	}
+	.hotLine {
+		margin: 0 -5%;
+	}
+	.infoRSU {
+		display: none;
+	} 
+	
+	
+	
+	.clear:nth-child(2n+1) {
+	clear: left !important;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {		
 	
@@ -461,6 +515,35 @@
 	.arrTop {
 		left: 105%;
 	}
+	
+	
+	
+	
+	.img1RSU, .img2RSU, .img3RSU {
+		width: 13%
+	}
+	.firstDivRSU {
+		width: 37%;
+	}
+	.sideBarName, .polInformRowRSU {
+		height: 60px;
+	}
+	.polInformRowRSU p {
+		overflow: auto;
+	}
+	.sideCalc {
+		height: 58px;
+		background-position: 0px 15px;
+	}
+	.gerb {
+		margin: 65px 10%;
+	}
+	.hotLine {
+		margin: 0 -5%;
+	}
+	.infoRSU {
+		display: none;
+	} 
 	
 }
 @media (min-width: 1200px) {	
