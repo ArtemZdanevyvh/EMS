@@ -1331,16 +1331,6 @@ content style Услуги
 	background-position: -300px;
 }
 
-
-/*
-.uslugBox hr {
-	height: 2px;
-	background-color: #fdac11;
-	margin: 40px 0 16px 0;
-	border-style: none;
-}
-*/
-
 .descriptUslug {
 	border-top: 2px solid #fdac11;
 	padding-top: 25px;
@@ -1364,11 +1354,113 @@ content style Услуги
 	margin-top: 65px;
 }
 
-
 /* +++++++++++++++++++++++++++++++++++++++++++
 content style Услуги END
 ++++++++++++++++++++++++++++++++++++++++++++*/
 
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+content style Новости 
+++++++++++++++++++++++++++++++++++++++++++++*/
+.years {
+	padding: 15px 0;
+}
+.years ul li {
+	list-style: none;
+	color: #a7a7a7;
+	font-size: 18px;
+	display: inline;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.years ul li:hover {
+	color: #fdac11;
+}
+.years ul li:active {
+	color: #1d5988;
+}
+.newsBox {
+	height: auto;
+	border: 2px solid #ffffff;
+	padding: 0px 0px 0px 0px;
+}
+
+.newsBox:hover {
+	border: 2px solid #fdac11;
+	cursor: pointer;
+}
+.newsImg1, 
+.newsImg2,
+.newsImg3,
+.newsImg4,
+.newsImg5,
+.newsImg6,
+.newsImg7,
+.newsImg8 {
+	background-repeat: no-repeat;
+	background-position: 0px;
+	background-size: cover;
+	height: 230px;
+}
+.newsImg1 {
+	background-image:url("../../i/images/avto_03.png");
+}
+.newsImg2 {
+	background-image:url("../../i/images/avto_09.png");
+}
+.newsImg3 {
+	background-image:url("../../i/images/avto_06.png");
+}
+.newsImg4 {
+	background-image:url("../../i/images/avto_01.png");
+}
+.newsImg5 {
+	background-image:url("../../i/images/avto_02.png");
+}
+.newsImg6 {
+	background-image:url("../../i/images/air.png");
+}
+.newsImg7 {
+	background-image:url("../../i/images/avto_04.png");
+}
+.newsImg8 {
+	background-image:url("../../i/images/avto_05.png");
+}
+.descriptNews {
+	padding: 10px;
+}
+.descriptNews h3 {
+	font-size: 20px;
+	font-weight: 900;
+	color: #1d5988;
+}
+.descriptNews p {
+	color: #000000;
+}
+.descriptNews span {
+	color: #a7a7a7;
+}
+.numbers {
+	margin: 50px auto;
+	text-align: center;
+}
+.numbers ul li {
+	width: 20px;
+	height: 20px;
+	color: #1d5988;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+.numbers ul li:hover {
+	background-color: #1d5988;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+content style Новости END
+++++++++++++++++++++++++++++++++++++++++++++*/
 
 /* +++++++++++++++++++++++++++++++++++++++++++
    plugins style
