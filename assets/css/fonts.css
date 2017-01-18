@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'MuseoSansBlack';
+	src: url('lib/fonts/MuseoSansBlack.eot');
+	src: url('lib/fonts/MuseoSansBlack.eot') format('embedded-opentype'),
+		url('lib/fonts/MuseoSansBlack.woff2') format('woff2'),
+		url('lib/fonts/MuseoSansBlack.woff') format('woff'),
+		url('lib/fonts/MuseoSansBlack.ttf') format('truetype'),
+		url('lib/fonts/MuseoSansBlack.svg#MuseoSansBlack') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSansBlackItalic';
+	src: url('lib/fonts/MuseoSansBlackItalic.eot');
+	src: url('lib/fonts/MuseoSansBlackItalic.eot') format('embedded-opentype'),
+		url('lib/fonts/MuseoSansBlackItalic.woff2') format('woff2'),
+		url('lib/fonts/MuseoSansBlackItalic.woff') format('woff'),
+		url('lib/fonts/MuseoSansBlackItalic.ttf') format('truetype'),
+		url('lib/fonts/MuseoSansBlackItalic.svg#MuseoSansBlackItalic') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSansBold';
+	src: url('lib/fonts/MuseoSansBold.eot');
+	src: url('lib/fonts/MuseoSansBold.eot') format('embedded-opentype'),
+		url('lib/fonts/MuseoSansBold.woff2') format('woff2'),
+		url('lib/fonts/MuseoSansBold.woff') format('woff'),
+		url('lib/fonts/MuseoSansBold.ttf') format('truetype'),
+		url('lib/fonts/MuseoSansBold.svg#MuseoSansBold') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSansBoldItalic';
+	src: url('lib/fonts/MuseoSansBoldItalic.eot');
+	src: url('lib/fonts/MuseoSansBoldItalic.eot') format('embedded-opentype'),
+		url('lib/fonts/MuseoSansBoldItalic.woff2') format('woff2'),
+		url('lib/fonts/MuseoSansBoldItalic.woff') format('woff'),
+		url('lib/fonts/MuseoSansBoldItalic.ttf') format('truetype'),
+		url('lib/fonts/MuseoSansBoldItalic.svg#MuseoSansBoldItalic') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSansItalic';
+	src: url('lib/fonts/MuseoSansItalic.eot');
+	src: url('lib/fonts/MuseoSansItalic.eot') format('embedded-opentype'),
+		url('lib/fonts/MuseoSansItalic.woff2') format('woff2'),
+		url('lib/fonts/MuseoSansItalic.woff') format('woff'),
+		url('lib/fonts/MuseoSansItalic.ttf') format('truetype'),
+		url('lib/fonts/MuseoSansItalic.svg#MuseoSansItalic') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSansLight';
+	src: url('lib/fonts/MuseoSansLight.eot');
+	src: url('lib/fonts/MuseoSansLight.eot') format('embedded-opentype'),
+		url('lib/fonts/MuseoSansLight.woff2') format('woff2'),
+		url('lib/fonts/MuseoSansLight.woff') format('woff'),
+		url('lib/fonts/MuseoSansLight.ttf') format('truetype'),
+		url('lib/fonts/MuseoSansLight.svg#MuseoSansLight') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSansLightItalic';
+	src: url('lib/fonts/MuseoSansLightItalic.eot');
+	src: url('lib/fonts/MuseoSansLightItalic.eot') format('embedded-opentype'),
+		url('lib/fonts/MuseoSansLightItalic.woff2') format('woff2'),
+		url('lib/fonts/MuseoSansLightItalic.woff') format('woff'),
+		url('lib/fonts/MuseoSansLightItalic.ttf') format('truetype'),
+		url('lib/fonts/MuseoSansLightItalic.svg#MuseoSansLightItalic') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSansMedium';
+	src: url('lib/fonts/MuseoSansMedium.eot');
+	src: url('lib/fonts/MuseoSansMedium.eot') format('embedded-opentype'),
+		url('lib/fonts/MuseoSansMedium.woff2') format('woff2'),
+		url('lib/fonts/MuseoSansMedium.woff') format('woff'),
+		url('lib/fonts/MuseoSansMedium.ttf') format('truetype'),
+		url('lib/fonts/MuseoSansMedium.svg#MuseoSansMedium') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSansMediumItalic';
+	src: url('lib/fonts/MuseoSansMediumItalic.eot');
+	src: url('lib/fonts/MuseoSansMediumItalic.eot') format('embedded-opentype'),
+		url('lib/fonts/MuseoSansMediumItalic.woff2') format('woff2'),
+		url('lib/fonts/MuseoSansMediumItalic.woff') format('woff'),
+		url('lib/fonts/MuseoSansMediumItalic.ttf') format('truetype'),
+		url('lib/fonts/MuseoSansMediumItalic.svg#MuseoSansMediumItalic') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSansRegular';
+	src: url('lib/fonts/MuseoSansRegular.eot');
+	src: url('lib/fonts/MuseoSansRegular.eot') format('embedded-opentype'),
+		url('lib/fonts/MuseoSansRegular.woff2') format('woff2'),
+		url('lib/fonts/MuseoSansRegular.woff') format('woff'),
+		url('lib/fonts/MuseoSansRegular.ttf') format('truetype'),
+		url('lib/fonts/MuseoSansRegular.svg#MuseoSansRegular') format('svg');
+}

@@ -142,6 +142,33 @@ input[type="checkbox"]:checked + label span {
 	background-size: cover;
 }
 
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"] + label {
+	cursor: pointer;
+	padding-left: 0;
+}
+
+input[type="radio"] + label span {
+	display: block;
+	width: 19px;
+	height: 19px;
+	margin: -1px 4px 0 0;
+	vertical-align: middle;
+	background: url(../../i/images/radioButt.png)left top no-repeat;
+	cursor: pointer;
+	background-position: 100%;
+	background-size: cover;
+}
+
+input[type="radio"]:checked + label span {
+	background: url(../../i/images/radioButt.png) top no-repeat;
+	background-position: 0;
+	background-size: cover;
+}
+
 
 /*
 h1 {
@@ -1354,6 +1381,7 @@ content style Услуги
 	margin-top: 65px;
 }
 
+
 /* +++++++++++++++++++++++++++++++++++++++++++
 content style Услуги END
 ++++++++++++++++++++++++++++++++++++++++++++*/
@@ -1362,9 +1390,11 @@ content style Услуги END
 /* +++++++++++++++++++++++++++++++++++++++++++
 content style Новости 
 ++++++++++++++++++++++++++++++++++++++++++++*/
+
 .years {
 	padding: 15px 0;
 }
+
 .years ul li {
 	list-style: none;
 	color: #a7a7a7;
@@ -1373,12 +1403,15 @@ content style Новости
 	margin-left: 15px;
 	cursor: pointer;
 }
+
 .years ul li:hover {
 	color: #fdac11;
 }
+
 .years ul li:active {
 	color: #1d5988;
 }
+
 .newsBox {
 	height: auto;
 	border: 2px solid #ffffff;
@@ -1389,7 +1422,8 @@ content style Новости
 	border: 2px solid #fdac11;
 	cursor: pointer;
 }
-.newsImg1, 
+
+.newsImg1,
 .newsImg2,
 .newsImg3,
 .newsImg4,
@@ -1402,48 +1436,62 @@ content style Новости
 	background-size: cover;
 	height: 230px;
 }
+
 .newsImg1 {
-	background-image:url("../../i/images/avto_03.png");
+	background-image: url("../../i/images/avto_03.png");
 }
+
 .newsImg2 {
-	background-image:url("../../i/images/avto_09.png");
+	background-image: url("../../i/images/avto_09.png");
 }
+
 .newsImg3 {
-	background-image:url("../../i/images/avto_06.png");
+	background-image: url("../../i/images/avto_06.png");
 }
+
 .newsImg4 {
-	background-image:url("../../i/images/avto_01.png");
+	background-image: url("../../i/images/avto_01.png");
 }
+
 .newsImg5 {
-	background-image:url("../../i/images/avto_02.png");
+	background-image: url("../../i/images/avto_02.png");
 }
+
 .newsImg6 {
-	background-image:url("../../i/images/air.png");
+	background-image: url("../../i/images/air.png");
 }
+
 .newsImg7 {
-	background-image:url("../../i/images/avto_04.png");
+	background-image: url("../../i/images/avto_04.png");
 }
+
 .newsImg8 {
-	background-image:url("../../i/images/avto_05.png");
+	background-image: url("../../i/images/avto_05.png");
 }
+
 .descriptNews {
 	padding: 10px;
 }
+
 .descriptNews h3 {
 	font-size: 20px;
 	font-weight: 900;
 	color: #1d5988;
 }
+
 .descriptNews p {
 	color: #000000;
 }
+
 .descriptNews span {
 	color: #a7a7a7;
 }
+
 .numbers {
 	margin: 50px auto;
 	text-align: center;
 }
+
 .numbers ul li {
 	width: 20px;
 	height: 20px;
@@ -1452,15 +1500,130 @@ content style Новости
 	display: inline-block;
 	text-align: center;
 }
+
 .numbers ul li:hover {
 	background-color: #1d5988;
 	color: #ffffff;
 	cursor: pointer;
 }
 
+
 /* +++++++++++++++++++++++++++++++++++++++++++
 content style Новости END
 ++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+content style Контакты
+++++++++++++++++++++++++++++++++++++++++++++*/
+
+iframe {
+	pointer-events: none;
+}
+
+.form-control {
+	height: 45px;
+}
+
+textarea.form-control {
+	height: 150px;
+}
+
+.contButt {
+	float: right;
+}
+
+.contactBox {
+	color: #767676;
+	margin-top: 50px;
+}
+
+.radio p,
+.radio span,
+.radio,
+.poVoprosam {
+	float: left;
+	margin: 0 5px 0 0;
+	text-transform: none;
+}
+
+.radio,
+.poVoprosam,
+.radio + .radio {
+	margin-top: 10px;
+}
+
+.contactBox h2, .colCont h2 {
+	text-transform: uppercase;
+	color: #1d5988;
+	font-weight: 800;
+	margin-top: 35px;
+	font-size: 24px;
+}
+
+.bottomLine {
+	border-bottom: 3px solid #999999;
+	padding: 230px 0 0 0;
+}
+
+.tabl {
+	color: #000000;
+	border-left: 2px solid #fdac11;
+}
+.tabl td {
+/*	white-space: pre-line;*/
+	padding: 10px 10px 0;
+	vertical-align: baseline;
+}
+.tabl td:nth-child(2) {
+	width: 30%;
+}
+.leftTab {
+	color: #3b576c;
+	width: 43%;
+	float: left;
+	padding: 10px 20px 0 0;
+}
+.leftTab h5 {
+	font-weight: 800;
+	font-size: 17px;
+}
+.leftTab p {
+	font-style: italic;
+}
+.rightTab {
+	width: 53%;
+	float: left;
+}
+.clock,
+.phone,
+.mail {
+	background-image: url("../../i/images/spraitContakt.png");
+	background-repeat: no-repeat;
+	background-position: 0px;
+	background-size: cover;
+	height: 20px;
+	width: 21px;
+	margin: -5px 0;
+}
+.phone {
+	background-position: -25px;
+}
+.mail {
+	background-position: -51px;
+}
+.rowCont {
+	border: 1px solid #e9e9e9;
+	padding: 20px;
+	margin-top: 30px;
+}
+.rowCont:last-child {
+	margin-bottom: 65px;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++
+content style Контакты END
+++++++++++++++++++++++++++++++++++++++++++++*/
+
 
 /* +++++++++++++++++++++++++++++++++++++++++++
    plugins style
