@@ -9,10 +9,11 @@ Version: 1.0
 /* +++++++++++++++++++++++++++++++++++++++++++
   add fonts: 
 ++++++++++++++++++++++++++++++++++++++++++++*/
+/*
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&subset=latin,latin-ext);
 
-/* HELPER FOR ME AND OTHER HTML-coder
+ HELPER FOR ME AND OTHER HTML-coder
     text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
     
     -webkit-box-shadow: rgba(0,0,0,0.5) 0px 1px 1px;
@@ -47,6 +48,7 @@ Version: 1.0
     filter: alpha(opacity=50);    
 */
 
+
 @-webkit-viewport {
 	width: device-width;
 }
@@ -76,9 +78,11 @@ Version: 1.0
 	outline: none !important;
 }
 
-html {
-	height: 100%;
+html, body {
+	height: auto;
 	font-size: 16px;
+	font-family: "MuseoSansRegular";
+	font-weight: 300;
 }
 
 body,
@@ -91,8 +95,17 @@ ul {
 img {
 	max-width: 100%;
 }
-
-
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+}
+h1 {
+	font-size: 28px;
+	font-weight: 900;
+}
 /* +++++++++++++++++++++++++++++++++++++++++++
   bootstrap style
 ++++++++++++++++++++++++++++++++++++++++++++*/
@@ -106,15 +119,6 @@ input[type='number'] {
 	-moz-appearance: textfield;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin-top: 0px;
-}
-
 input[type="checkbox"] {
 	display: none;
 }
@@ -126,20 +130,18 @@ input[type="checkbox"] + label {
 
 input[type="checkbox"] + label span {
 	display: block;
-	width: 19px;
+	width: 21px;
 	height: 19px;
 	margin: -1px 4px 0 0;
 	vertical-align: middle;
 	background: url(../../i/images/checkbox.png)left top no-repeat;
 	cursor: pointer;
-	background-position: 0%;
+	background-position: -1%;
 	background-size: cover;
 }
 
 input[type="checkbox"]:checked + label span {
-	background: url(../../i/images/checkbox.png) top no-repeat;
-	background-position: 100%;
-	background-size: cover;
+	background-position: 106%;
 }
 
 input[type="radio"] {
@@ -169,24 +171,6 @@ input[type="radio"]:checked + label span {
 	background-size: cover;
 }
 
-
-/*
-h1 {
-	font-size: 28px;
-}
-h2 {
-	font-size: 22px;
-h3 {
-	font-size: 20px;
-}
-h4 {
-	font-size: 18px;
-}
-h5 {
-	font-size: 16px;
-}
-*/
-
 label {
 	font-weight: 400;
 	text-transform: uppercase;
@@ -214,6 +198,7 @@ textarea.form-control {
 	color: #ffffff;
 	text-transform: uppercase;
 	border: none;
+	font-weight: 600;
 }
 
 .buttonBlue:hover {
@@ -228,6 +213,7 @@ textarea.form-control {
 	color: #000000;
 	border: none;
 	font-size: 18px;
+	font-weight: 700;
 }
 
 .buttonOrang:hover {
@@ -279,7 +265,8 @@ select {
 .topLine h5 {
 	line-height: 40px;
 	text-align: center;
-	margin: 0;
+	font-weight: 700;
+	font-size: 15px;
 }
 
 .topLine ul li {
@@ -293,6 +280,8 @@ select {
 .topLine ul li a {
 	text-decoration: none;
 	color: #8b99a3;
+	font-weight: 700;
+	font-size: 15px;
 }
 
 .topLine ul li a:hover {
@@ -310,6 +299,7 @@ select {
 	height: 110px;
 	margin: 10px 0;
 	clear: left;
+	cursor: pointer;
 }
 
 .headContact {
@@ -349,6 +339,7 @@ select {
 	color: #fdac11;
 	float: left;
 	padding: 10px 0 0;
+	font-weight: 700;
 }
 
 .headSeach img {
@@ -383,7 +374,7 @@ select {
 .mainMenu ul li {
 	list-style: none;
 	display: inline;
-	margin-left: 7.5%;
+	margin-left: 6%;
 }
 
 .mainMenu ul li:first-child {
@@ -399,7 +390,7 @@ select {
 .mainMenu ul li a:hover {
 	color: #186aa9;
 	border-bottom: 2px #fdac11 solid;
-	padding-bottom: 13px;
+	padding-bottom: 11px;
 }
 
 .mashyny {
@@ -415,27 +406,28 @@ select {
 
 .slider hr {
 	width: 82%;
-	height: 2px;
+	height: 4px;
 	background-color: #fdac11;
 	margin: 130px 0 16px 0;
 	border-style: none;
 }
 
 .slider h1 {
-	font-size: 40px;
+	font-size: 45px;
+	font-weight: 700;
 	text-transform: uppercase;
 	background-color: #186aa9;
 	color: #ffffff;
 }
 
 .slider h1:first-child {
-	width: 88%;
-	padding-left: 3px
+	margin-bottom: 10px;
+	padding: 0 10px;
 }
 
 .slider h1:last-child {
-	width: 54%;
-	padding-left: 3px
+	width: 61%;
+	padding: 0 10px;
 }
 
 
@@ -459,27 +451,23 @@ select {
 	padding: 35px;
 }
 
-.stoimost {}
-
 .stoimost hr,
 .uslugiName hr,
 .polInformName hr,
 .newsRow hr {
-	width: 95px;
-	height: 2px;
+	width: 110px;
+	height: 4px;
 	background-color: #fdac11;
 	margin: 40px 0 16px 0;
 	border-style: none;
 }
 
-.stoimost h3,
-.uslugiName h3,
-.polInformName h3,
-.newsRow h3 {
-	font-size: 24px;
+.stoimost h1,
+.uslugiName h1,
+.polInformName h1,
+.newsRow h1 {
 	text-transform: uppercase;
 	color: #ffffff;
-	font-weight: 800;
 }
 
 .switch {
@@ -497,6 +485,7 @@ select {
 	float: left;
 	text-align: center;
 	padding: 10px 0 0 5px;
+	font-weight: 900;
 }
 
 .switch2 {
@@ -508,6 +497,7 @@ select {
 	float: left;
 	text-align: center;
 	padding: 10px 5px 0 0;
+	font-weight: 900;
 }
 
 .otkudaCol {
@@ -548,14 +538,15 @@ input,
 	bottom: 80px;
 	left: 10%;
 	position: relative;
+	padding-left: 3%;
 }
 
 .col1,
 .col2 {
 	float: left;
-	margin: 20px 5px 0px 5px;
-	width: 200px;
-	padding: 0 14px;
+	margin: 20px 0px 0px 0px;
+	width: 49%;
+	padding: 0px 12px;
 }
 
 .col1 ul li,
@@ -569,20 +560,19 @@ input,
 	background-repeat: no-repeat;
 	background-position: 0px;
 	background-size: cover;
-	width: 75px;
-	height: 72px;
+	width: 70px;
+	height: 65px;
 	margin-bottom: 20px;
 }
 
 .col2_ing {
-	background-position: -110px;
+	background-position: -100px;
 }
 
 .resultCol .buttonOrang {
 	float: left;
-	margin-top: 40px;
+	margin-top: 30px;
 	margin-left: 25%;
-	margin-bottom: 30px;
 }
 
 .mar20 {
@@ -593,9 +583,7 @@ input,
 	font-size: 21px;
 }
 
-.uslugiName {}
-
-.uslugiName h3 {
+.uslugiName h1 {
 	color: #2c3741;
 }
 
@@ -613,41 +601,34 @@ input,
 }
 
 .descript {
-	border-bottom: 2px solid #fdac11;
+	border-bottom: 3px solid #fdac11;
 	padding-bottom: 25px;
 	margin-bottom: 25px;
 	height: 75px;
-}
-
-.descript:hover {
-	border-bottom: 2px solid #1d5988;
-	;
-}
-
-.uslug {
-	width: 275px;
-	height: 415px;
-	border: 2px solid #ffffff;
-	padding: 30px 15px 20px;
-	margin-bottom: 115px;
-}
-
-.uslug:hover {
-	border: 2px solid #fdac11;
-	cursor: pointer;
-}
-
-.uslug .descript p {
 	text-transform: uppercase;
 	color: #2c3741;
 	font-weight: 700;
 }
 
-.uslug .descript p:hover {
+.descript:hover {
+	border-bottom: 3px solid #1d5988;
 	color: #1d5988;
 	cursor: pointer;
-	font-weight: 700;
 }
+
+.uslug {
+	width: 275px;
+	height: 415px;
+	border: 3px solid #ffffff;
+	padding: 30px 15px 20px;
+	margin: 25px 0 115px 0;
+}
+
+.uslug:hover {
+	border: 3px solid #fdac11;
+	cursor: pointer;
+}
+
 
 .uslug p {
 	color: #868686;
@@ -675,8 +656,13 @@ input,
 	width: 580px;
 }
 
-.polInformName h3 {
+.polInformName hr {
+	margin-top: 70px;
+}
+
+.polInformName h1 {
 	color: #ffffff;
+	margin-bottom: 20px;
 }
 
 .polInform {
@@ -763,7 +749,7 @@ input,
 	background-image: url(../../i/images/air.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 549px;
+	height: 592px;
 	padding-left: 0;
 	background-position: 30%;
 }
@@ -777,8 +763,9 @@ input,
 	left: 27.8%;
 }
 
-.newsRow h3 {
+.newsRow h1 {
 	color: #2c3741;
+	margin-bottom: 20px;
 }
 
 .news .row {
@@ -839,6 +826,7 @@ input,
 
 .butAllNews {
 	margin: 30px 0 70px 41%;
+	font-weight: 900;
 }
 
 
@@ -882,8 +870,14 @@ input,
 	color: #fdac11;
 }
 
+.footCol1 h3, .footCol2 h3 {
+	font-weight: 900;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
 .footCol11 ul li {
-	line-height: 30px;
+	line-height: 35px;
 }
 
 .footCol11 ul li i {
@@ -942,6 +936,10 @@ input,
 	margin-top: 36px;
 }
 
+.footCol5 ul li {
+	font-size: 14px;
+	color: #697985;
+}
 .liMar {
 	margin-top: 10px;
 }
@@ -1014,6 +1012,20 @@ content style расчет стоимости услуг спецсвязи
 .kudaColRSU label,
 .kudaColRSU p {
 	color: #486276;
+}
+
+.arrows {
+	position: absolute;
+	z-index: 10;
+	color: #186aa9;
+	font-size: 20px;
+	top: 58px;
+	left: 49%;
+	cursor: default;
+}
+
+.arrow1 {
+	margin-bottom: 25px;
 }
 
 .otkudaColRSU input {
@@ -1153,11 +1165,11 @@ content style расчет стоимости услуг спецсвязи
 	width: 21px;
 	height: 19px;
 	margin: 0px 5px 0 0;
-	background-position: -1%;
+	background-position: -3%;
 }
 
 .chevkRSU input[type="checkbox"]:checked + label span {
-	background-position: 107%;
+	background-position: 106%;
 }
 
 .icon-info-button {
@@ -1230,6 +1242,7 @@ span.icon-info-button:hover {
 	background-color: #fdac11;
 	cursor: pointer;
 	color: #ffffff;
+	background-position: 0px 10px;
 }
 
 .polInformImg1RSU,
@@ -1268,11 +1281,12 @@ span.icon-info-button:hover {
 }
 
 
-/*
 
-.polInformImg1RSU:hover {
+/*
+.polInformImg1RSU {
 background-position: 0px 10px;
 }
+
 
 .polInformImg2RSU:hover {
 background-position:  -80px 5px;
@@ -1517,9 +1531,11 @@ content style Новости END
 content style Контакты
 ++++++++++++++++++++++++++++++++++++++++++++*/
 
+/*
 iframe {
 	pointer-events: none;
 }
+*/
 
 .form-control {
 	height: 45px;
